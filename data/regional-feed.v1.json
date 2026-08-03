@@ -1,16 +1,71 @@
 {
   "schemaVersion": "raid-atlas-regional-feed-v1",
   "revisionId": "sha256:8d56b319db0448c5535f24f3ca69a8dfcd95bba6fd6c27c4c35aacac0e0064cc",
-  "generatedAt": "2026-08-03T16:00:02.988Z",
-  "lastSuccessfulObservationAt": "2026-08-03T16:00:02.988Z",
-  "staleAfter": "2026-08-04T00:00:02.988Z",
+  "generatedAt": "2026-08-03T16:07:47.977Z",
+  "lastSuccessfulObservationAt": "2026-08-03T16:07:47.977Z",
+  "staleAfter": "2026-08-04T00:07:47.977Z",
   "tzdbVersion": "2026a",
   "catalogVersions": {
     "locations": "location-catalog-v1",
     "pokemonAliases": "pokemon-aliases-v1",
     "sourceRegistry": "regional-source-registry-v1"
   },
-  "sourceStates": [],
+  "sourceStates": [
+    {
+      "sourceId": "field-museum-discovery",
+      "state": "STALE",
+      "lastSuccessAt": "2026-08-03T16:07:49.302Z",
+      "contentHash": "04df39b62e796217f3a533871d424fd6df0a6874bedfa18c75e21c8ad0bf8f29",
+      "discoveredCount": 0,
+      "publishedNoticeCount": 0,
+      "detail": "fetch failed"
+    },
+    {
+      "sourceId": "gdelt-regional-query",
+      "state": "STALE",
+      "lastSuccessAt": null,
+      "contentHash": null,
+      "discoveredCount": 0,
+      "publishedNoticeCount": 0,
+      "detail": "This operation was aborted"
+    },
+    {
+      "sourceId": "gdelt-regional-query-ja",
+      "state": "STALE",
+      "lastSuccessAt": null,
+      "contentHash": null,
+      "discoveredCount": 0,
+      "publishedNoticeCount": 0,
+      "detail": "This operation was aborted"
+    },
+    {
+      "sourceId": "pokemon-go-official-fossil-museum",
+      "state": "BLOCKED",
+      "lastSuccessAt": null,
+      "contentHash": null,
+      "discoveredCount": 0,
+      "publishedNoticeCount": 0,
+      "detail": "Source returned HTTP 403"
+    },
+    {
+      "sourceId": "pokemon-go-official-jp-regional",
+      "state": "BLOCKED",
+      "lastSuccessAt": null,
+      "contentHash": null,
+      "discoveredCount": 0,
+      "publishedNoticeCount": 0,
+      "detail": "SOURCE_ITEM_MISSING: 0/12 발견, LKG 유지"
+    },
+    {
+      "sourceId": "scrapedduck-regional-discovery",
+      "state": "HEALTHY",
+      "lastSuccessAt": "2026-08-03T16:07:47.992Z",
+      "contentHash": "a1d74861ecdc101f5a0fd097cae57d524b8b342adc227ab61c86f397f3d5a4f3",
+      "discoveredCount": 0,
+      "publishedNoticeCount": 0,
+      "detail": null
+    }
+  ],
   "heldCandidateCount": 0,
   "notices": [
     {
