@@ -1,9 +1,9 @@
 {
   "schemaVersion": "raid-atlas-regional-feed-v1",
-  "revisionId": "sha256:0b552f883eb54f45ada000274da39b9da9e7f11755453aab1678065188c138fd",
-  "generatedAt": "2026-08-06T09:07:31.482Z",
-  "lastSuccessfulObservationAt": "2026-08-06T09:07:31.482Z",
-  "staleAfter": "2026-08-06T17:07:31.482Z",
+  "revisionId": "sha256:7f1e1c00f5a77581fe7b1f053c5fb7a0650ff8918cc96c6caac3e36b3392708e",
+  "generatedAt": "2026-08-06T14:35:58.907Z",
+  "lastSuccessfulObservationAt": "2026-08-06T14:35:58.907Z",
+  "staleAfter": "2026-08-06T22:35:58.907Z",
   "tzdbVersion": "2026a",
   "catalogVersions": {
     "locations": "location-catalog-v1",
@@ -14,8 +14,8 @@
     {
       "sourceId": "field-museum-discovery",
       "state": "STALE",
-      "lastSuccessAt": null,
-      "contentHash": null,
+      "lastSuccessAt": "2026-08-06T14:36:00.731Z",
+      "contentHash": "a890c5e17b251fd3804d0c1b814b5fa10f1e9bd832ae8eaf9f273887ecfe52e9",
       "discoveredCount": 0,
       "publishedNoticeCount": 0,
       "detail": "fetch failed"
@@ -27,7 +27,7 @@
       "contentHash": null,
       "discoveredCount": 0,
       "publishedNoticeCount": 0,
-      "detail": "Source returned HTTP 429"
+      "detail": "fetch failed"
     },
     {
       "sourceId": "gdelt-regional-query-ja",
@@ -36,34 +36,34 @@
       "contentHash": null,
       "discoveredCount": 0,
       "publishedNoticeCount": 0,
-      "detail": "Minimum source polling interval has not elapsed"
+      "detail": "Source returned HTTP 429"
     },
     {
       "sourceId": "pokemon-go-official-fossil-museum",
-      "state": "STALE",
-      "lastSuccessAt": null,
-      "contentHash": null,
-      "discoveredCount": 0,
-      "publishedNoticeCount": 0,
-      "detail": "Minimum source polling interval has not elapsed"
+      "state": "HEALTHY",
+      "lastSuccessAt": "2026-08-06T14:36:00.210Z",
+      "contentHash": "78a2a4941db6d502a0a91f58aef0e6bc4a894002f7a9d75a1e41dc09cdd0319f",
+      "discoveredCount": 1,
+      "publishedNoticeCount": 1,
+      "detail": null
     },
     {
       "sourceId": "pokemon-go-official-jp-regional",
-      "state": "STALE",
-      "lastSuccessAt": null,
-      "contentHash": null,
-      "discoveredCount": 0,
-      "publishedNoticeCount": 0,
-      "detail": "SOURCE_ITEM_MISSING: 0/16 발견, LKG 유지"
+      "state": "HEALTHY",
+      "lastSuccessAt": "2026-08-06T14:35:59.703Z",
+      "contentHash": "7a606bfaf2700654d54a24a62d974bcf3a1a147eaf68ad221ae4f8d0c400fcae",
+      "discoveredCount": 14,
+      "publishedNoticeCount": 14,
+      "detail": null
     },
     {
       "sourceId": "scrapedduck-regional-discovery",
-      "state": "STALE",
-      "lastSuccessAt": null,
-      "contentHash": null,
+      "state": "HEALTHY",
+      "lastSuccessAt": "2026-08-06T14:35:58.916Z",
+      "contentHash": "7c808e907d5cd6713e1bc7d2ab6acbdc4431978f9b12632e963683be86ff5d5f",
       "discoveredCount": 0,
       "publishedNoticeCount": 0,
-      "detail": "Minimum source polling interval has not elapsed"
+      "detail": null
     }
   ],
   "heldCandidateCount": 0,
@@ -164,7 +164,7 @@
     },
     {
       "noticeId": "pokemon-go-official-fossil-museum:field-museum:2026",
-      "eventId": null,
+      "eventId": "pokemon-go-official-fossil-museum:field-museum:2026",
       "displayState": "ENRICHED",
       "titleDisplay": "Pokémon GO 시카고 포켓몬 화석박물관 이벤트",
       "titleOriginal": "Pokémon GO 시카고 포켓몬 화석박물관 이벤트",
@@ -177,8 +177,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 화석박물관 공식 공지",
         "url": "https://pokemongo.com/en/news/pgo-pokemon-fossil-musuem-chicago-2026",
-        "observedAt": "2026-08-06T03:39:26.143Z",
-        "contentHash": "c2ca522d9f515b0cff79e9e4de553379fedcbcf8c97f1d89cd1e3ec5c5ad0188"
+        "observedAt": "2026-08-06T14:36:00.117Z",
+        "contentHash": "9926e7a4d4763d75dfd57b79c6adf42447cb8a3375ecaa50979e67283ff4452a"
       },
       "regionalEvidence": [
         "source-family:MUSEUM",
@@ -186,20 +186,36 @@
         "keyword:museum",
         "keyword:exclusive"
       ],
-      "firstObservedAt": "2026-08-06T03:39:26.143Z",
-      "lastObservedAt": "2026-08-06T03:39:26.143Z",
-      "contentHash": "c2ca522d9f515b0cff79e9e4de553379fedcbcf8c97f1d89cd1e3ec5c5ad0188",
-      "lifecycleState": "SCHEDULED",
-      "timeState": "UNRESOLVED",
+      "firstObservedAt": "2026-08-06T14:36:00.117Z",
+      "lastObservedAt": "2026-08-06T14:36:00.117Z",
+      "contentHash": "9926e7a4d4763d75dfd57b79c6adf42447cb8a3375ecaa50979e67283ff4452a",
+      "lifecycleState": "ACTIVE",
+      "timeState": "RESOLVED",
       "mapState": "MAPPED",
-      "pokemonState": "UNRESOLVED",
+      "pokemonState": "RESOLVED",
       "regionLabelKo": "화석박물관",
       "regionLabelOriginal": "Field Museum",
-      "timeWindows": [],
+      "timeWindows": [
+        {
+          "mode": "DATE_ONLY",
+          "startDateInclusive": "2026-05-22",
+          "endDateExclusive": "2027-04-12",
+          "timeZoneId": "America/Chicago"
+        }
+      ],
       "locationRefs": [
         "field-museum-chicago"
       ],
-      "pokemon": []
+      "pokemon": [
+        {
+          "pokemonKey": "aerodactyl:normal:none:fossil-museum",
+          "role": "RAID_BOSS"
+        },
+        {
+          "pokemonKey": "pikachu:normal:none:regional-raid",
+          "role": "RAID_BOSS"
+        }
+      ]
     },
     {
       "noticeId": "pokemon-go-official-jp-regional:086447430045e3b794ac6afd",
@@ -216,8 +232,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 일본 지역 공식 공지",
         "url": "https://pokemongo.com/ja/news/202607backtomcd",
-        "observedAt": "2026-08-06T03:39:26.006Z",
-        "contentHash": "0ebabcc0f1ded1e783fdc5635f7685281d24790ade225517360dbe2d375c6d67"
+        "observedAt": "2026-08-06T14:35:59.703Z",
+        "contentHash": "7a606bfaf2700654d54a24a62d974bcf3a1a147eaf68ad221ae4f8d0c400fcae"
       },
       "regionalEvidence": [
         "keyword:限定",
@@ -225,9 +241,9 @@
         "source-family:STADIUM",
         "source-family:VENUE"
       ],
-      "firstObservedAt": "2026-08-06T03:39:26.006Z",
-      "lastObservedAt": "2026-08-06T03:39:26.006Z",
-      "contentHash": "0ebabcc0f1ded1e783fdc5635f7685281d24790ade225517360dbe2d375c6d67",
+      "firstObservedAt": "2026-08-06T14:35:59.703Z",
+      "lastObservedAt": "2026-08-06T14:35:59.703Z",
+      "contentHash": "7a606bfaf2700654d54a24a62d974bcf3a1a147eaf68ad221ae4f8d0c400fcae",
       "lifecycleState": "SCHEDULED",
       "timeState": "UNRESOLVED",
       "mapState": "UNMAPPED",
@@ -327,8 +343,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 일본 지역 공식 공지",
         "url": "https://pokemongo.com/news/202607backtomcd",
-        "observedAt": "2026-08-06T03:39:26.006Z",
-        "contentHash": "0ebabcc0f1ded1e783fdc5635f7685281d24790ade225517360dbe2d375c6d67"
+        "observedAt": "2026-08-06T14:35:59.703Z",
+        "contentHash": "7a606bfaf2700654d54a24a62d974bcf3a1a147eaf68ad221ae4f8d0c400fcae"
       },
       "regionalEvidence": [
         "keyword:限定",
@@ -336,9 +352,9 @@
         "source-family:STADIUM",
         "source-family:VENUE"
       ],
-      "firstObservedAt": "2026-08-06T03:39:26.006Z",
-      "lastObservedAt": "2026-08-06T03:39:26.006Z",
-      "contentHash": "0ebabcc0f1ded1e783fdc5635f7685281d24790ade225517360dbe2d375c6d67",
+      "firstObservedAt": "2026-08-06T14:35:59.703Z",
+      "lastObservedAt": "2026-08-06T14:35:59.703Z",
+      "contentHash": "7a606bfaf2700654d54a24a62d974bcf3a1a147eaf68ad221ae4f8d0c400fcae",
       "lifecycleState": "SCHEDULED",
       "timeState": "UNRESOLVED",
       "mapState": "UNMAPPED",
@@ -351,7 +367,7 @@
     },
     {
       "noticeId": "pokemon-go-official-jp-regional:npb:baystars:2026",
-      "eventId": null,
+      "eventId": "pokemon-go-official-jp-regional:npb:baystars:2026",
       "displayState": "ENRICHED",
       "titleDisplay": "Pokémon GO 일본 프로야구 요코하마 DeNA 베이스타스 홈구장 이벤트",
       "titleOriginal": "Pokémon GO 일본 프로야구 요코하마 DeNA 베이스타스 홈구장 이벤트",
@@ -364,8 +380,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 일본 지역 공식 공지",
         "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-baystars",
-        "observedAt": "2026-08-06T03:39:24.342Z",
-        "contentHash": "9b657347649203cad664fac3d24057b3834ed55e592b3497ba5788017f2c0d1e"
+        "observedAt": "2026-08-06T14:35:59.056Z",
+        "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -373,24 +389,36 @@
         "keyword:stadium",
         "keyword:npb"
       ],
-      "firstObservedAt": "2026-08-06T03:39:24.342Z",
-      "lastObservedAt": "2026-08-06T03:39:24.342Z",
-      "contentHash": "9b657347649203cad664fac3d24057b3834ed55e592b3497ba5788017f2c0d1e",
-      "lifecycleState": "SCHEDULED",
-      "timeState": "UNRESOLVED",
+      "firstObservedAt": "2026-08-06T14:35:59.056Z",
+      "lastObservedAt": "2026-08-06T14:35:59.056Z",
+      "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9",
+      "lifecycleState": "ENDED",
+      "timeState": "RESOLVED",
       "mapState": "MAPPED",
-      "pokemonState": "UNRESOLVED",
+      "pokemonState": "RESOLVED",
       "regionLabelKo": "요코하마 스타디움",
       "regionLabelOriginal": "Yokohama Stadium",
-      "timeWindows": [],
+      "timeWindows": [
+        {
+          "mode": "DATE_ONLY",
+          "startDateInclusive": "2026-05-23",
+          "endDateExclusive": "2026-05-25",
+          "timeZoneId": "Asia/Tokyo"
+        }
+      ],
       "locationRefs": [
         "npb-yokohama-stadium"
       ],
-      "pokemon": []
+      "pokemon": [
+        {
+          "pokemonKey": "pikachu:normal:none:regional-raid",
+          "role": "RAID_BOSS"
+        }
+      ]
     },
     {
       "noticeId": "pokemon-go-official-jp-regional:npb:buffaloes:2026",
-      "eventId": null,
+      "eventId": "pokemon-go-official-jp-regional:npb:buffaloes:2026",
       "displayState": "ENRICHED",
       "titleDisplay": "Pokémon GO 일본 프로야구 오릭스 버펄로스 홈구장 이벤트",
       "titleOriginal": "Pokémon GO 일본 프로야구 오릭스 버펄로스 홈구장 이벤트",
@@ -403,8 +431,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 일본 지역 공식 공지",
         "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-buffaloes",
-        "observedAt": "2026-08-06T03:39:24.342Z",
-        "contentHash": "9b657347649203cad664fac3d24057b3834ed55e592b3497ba5788017f2c0d1e"
+        "observedAt": "2026-08-06T14:35:59.056Z",
+        "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -412,24 +440,36 @@
         "keyword:stadium",
         "keyword:npb"
       ],
-      "firstObservedAt": "2026-08-06T03:39:24.342Z",
-      "lastObservedAt": "2026-08-06T03:39:24.342Z",
-      "contentHash": "9b657347649203cad664fac3d24057b3834ed55e592b3497ba5788017f2c0d1e",
-      "lifecycleState": "SCHEDULED",
-      "timeState": "UNRESOLVED",
+      "firstObservedAt": "2026-08-06T14:35:59.056Z",
+      "lastObservedAt": "2026-08-06T14:35:59.056Z",
+      "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9",
+      "lifecycleState": "ENDED",
+      "timeState": "RESOLVED",
       "mapState": "MAPPED",
-      "pokemonState": "UNRESOLVED",
+      "pokemonState": "RESOLVED",
       "regionLabelKo": "교세라 돔 오사카",
       "regionLabelOriginal": "Kyocera Dome Osaka",
-      "timeWindows": [],
+      "timeWindows": [
+        {
+          "mode": "DATE_ONLY",
+          "startDateInclusive": "2026-05-08",
+          "endDateExclusive": "2026-05-11",
+          "timeZoneId": "Asia/Tokyo"
+        }
+      ],
       "locationRefs": [
         "npb-kyocera-dome"
       ],
-      "pokemon": []
+      "pokemon": [
+        {
+          "pokemonKey": "pikachu:normal:none:regional-raid",
+          "role": "RAID_BOSS"
+        }
+      ]
     },
     {
       "noticeId": "pokemon-go-official-jp-regional:npb:carp:2026",
-      "eventId": null,
+      "eventId": "pokemon-go-official-jp-regional:npb:carp:2026",
       "displayState": "ENRICHED",
       "titleDisplay": "Pokémon GO 일본 프로야구 히로시마 도요 카프 홈구장 이벤트",
       "titleOriginal": "Pokémon GO 일본 프로야구 히로시마 도요 카프 홈구장 이벤트",
@@ -442,8 +482,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 일본 지역 공식 공지",
         "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-carp",
-        "observedAt": "2026-08-06T03:39:24.342Z",
-        "contentHash": "9b657347649203cad664fac3d24057b3834ed55e592b3497ba5788017f2c0d1e"
+        "observedAt": "2026-08-06T14:35:59.056Z",
+        "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -451,24 +491,36 @@
         "keyword:stadium",
         "keyword:npb"
       ],
-      "firstObservedAt": "2026-08-06T03:39:24.342Z",
-      "lastObservedAt": "2026-08-06T03:39:24.342Z",
-      "contentHash": "9b657347649203cad664fac3d24057b3834ed55e592b3497ba5788017f2c0d1e",
-      "lifecycleState": "SCHEDULED",
-      "timeState": "UNRESOLVED",
+      "firstObservedAt": "2026-08-06T14:35:59.056Z",
+      "lastObservedAt": "2026-08-06T14:35:59.056Z",
+      "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9",
+      "lifecycleState": "ENDED",
+      "timeState": "RESOLVED",
       "mapState": "MAPPED",
-      "pokemonState": "UNRESOLVED",
+      "pokemonState": "RESOLVED",
       "regionLabelKo": "마쓰다 줌줌 스타디움 히로시마",
       "regionLabelOriginal": "MAZDA Zoom-Zoom Stadium Hiroshima",
-      "timeWindows": [],
+      "timeWindows": [
+        {
+          "mode": "DATE_ONLY",
+          "startDateInclusive": "2026-04-21",
+          "endDateExclusive": "2026-04-24",
+          "timeZoneId": "Asia/Tokyo"
+        }
+      ],
       "locationRefs": [
         "npb-mazda-stadium"
       ],
-      "pokemon": []
+      "pokemon": [
+        {
+          "pokemonKey": "pikachu:normal:none:regional-raid",
+          "role": "RAID_BOSS"
+        }
+      ]
     },
     {
       "noticeId": "pokemon-go-official-jp-regional:npb:dragons:2026",
-      "eventId": null,
+      "eventId": "pokemon-go-official-jp-regional:npb:dragons:2026",
       "displayState": "ENRICHED",
       "titleDisplay": "Pokémon GO 일본 프로야구 주니치 드래곤스 홈구장 이벤트",
       "titleOriginal": "Pokémon GO 일본 프로야구 주니치 드래곤스 홈구장 이벤트",
@@ -481,8 +533,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 일본 지역 공식 공지",
         "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-dragons",
-        "observedAt": "2026-08-06T03:39:24.342Z",
-        "contentHash": "9b657347649203cad664fac3d24057b3834ed55e592b3497ba5788017f2c0d1e"
+        "observedAt": "2026-08-06T14:35:59.056Z",
+        "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -490,24 +542,36 @@
         "keyword:stadium",
         "keyword:npb"
       ],
-      "firstObservedAt": "2026-08-06T03:39:24.342Z",
-      "lastObservedAt": "2026-08-06T03:39:24.342Z",
-      "contentHash": "9b657347649203cad664fac3d24057b3834ed55e592b3497ba5788017f2c0d1e",
+      "firstObservedAt": "2026-08-06T14:35:59.056Z",
+      "lastObservedAt": "2026-08-06T14:35:59.056Z",
+      "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9",
       "lifecycleState": "SCHEDULED",
-      "timeState": "UNRESOLVED",
+      "timeState": "RESOLVED",
       "mapState": "MAPPED",
-      "pokemonState": "UNRESOLVED",
+      "pokemonState": "RESOLVED",
       "regionLabelKo": "반테린 돔 나고야",
       "regionLabelOriginal": "Vantelin Dome Nagoya",
-      "timeWindows": [],
+      "timeWindows": [
+        {
+          "mode": "DATE_ONLY",
+          "startDateInclusive": "2026-08-21",
+          "endDateExclusive": "2026-08-24",
+          "timeZoneId": "Asia/Tokyo"
+        }
+      ],
       "locationRefs": [
         "npb-vantelin-dome"
       ],
-      "pokemon": []
+      "pokemon": [
+        {
+          "pokemonKey": "pikachu:normal:none:regional-raid",
+          "role": "RAID_BOSS"
+        }
+      ]
     },
     {
       "noticeId": "pokemon-go-official-jp-regional:npb:eagles:2026",
-      "eventId": null,
+      "eventId": "pokemon-go-official-jp-regional:npb:eagles:2026",
       "displayState": "ENRICHED",
       "titleDisplay": "Pokémon GO 일본 프로야구 도호쿠 라쿠텐 골든이글스 홈구장 이벤트",
       "titleOriginal": "Pokémon GO 일본 프로야구 도호쿠 라쿠텐 골든이글스 홈구장 이벤트",
@@ -520,8 +584,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 일본 지역 공식 공지",
         "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-eagles",
-        "observedAt": "2026-08-06T03:39:24.342Z",
-        "contentHash": "9b657347649203cad664fac3d24057b3834ed55e592b3497ba5788017f2c0d1e"
+        "observedAt": "2026-08-06T14:35:59.056Z",
+        "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -529,24 +593,36 @@
         "keyword:stadium",
         "keyword:npb"
       ],
-      "firstObservedAt": "2026-08-06T03:39:24.342Z",
-      "lastObservedAt": "2026-08-06T03:39:24.342Z",
-      "contentHash": "9b657347649203cad664fac3d24057b3834ed55e592b3497ba5788017f2c0d1e",
-      "lifecycleState": "SCHEDULED",
-      "timeState": "UNRESOLVED",
+      "firstObservedAt": "2026-08-06T14:35:59.056Z",
+      "lastObservedAt": "2026-08-06T14:35:59.056Z",
+      "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9",
+      "lifecycleState": "ENDED",
+      "timeState": "RESOLVED",
       "mapState": "MAPPED",
-      "pokemonState": "UNRESOLVED",
+      "pokemonState": "RESOLVED",
       "regionLabelKo": "라쿠텐 모바일 파크 미야기",
       "regionLabelOriginal": "Rakuten Mobile Park Miyagi",
-      "timeWindows": [],
+      "timeWindows": [
+        {
+          "mode": "DATE_ONLY",
+          "startDateInclusive": "2026-04-10",
+          "endDateExclusive": "2026-04-13",
+          "timeZoneId": "Asia/Tokyo"
+        }
+      ],
       "locationRefs": [
         "npb-rakuten-mobile-park"
       ],
-      "pokemon": []
+      "pokemon": [
+        {
+          "pokemonKey": "pikachu:normal:none:regional-raid",
+          "role": "RAID_BOSS"
+        }
+      ]
     },
     {
       "noticeId": "pokemon-go-official-jp-regional:npb:fighters:2026",
-      "eventId": null,
+      "eventId": "pokemon-go-official-jp-regional:npb:fighters:2026",
       "displayState": "ENRICHED",
       "titleDisplay": "Pokémon GO 일본 프로야구 홋카이도 닛폰햄 파이터스 홈구장 이벤트",
       "titleOriginal": "Pokémon GO 일본 프로야구 홋카이도 닛폰햄 파이터스 홈구장 이벤트",
@@ -559,8 +635,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 일본 지역 공식 공지",
         "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-fighters",
-        "observedAt": "2026-08-06T03:39:24.342Z",
-        "contentHash": "9b657347649203cad664fac3d24057b3834ed55e592b3497ba5788017f2c0d1e"
+        "observedAt": "2026-08-06T14:35:59.056Z",
+        "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -568,24 +644,36 @@
         "keyword:stadium",
         "keyword:npb"
       ],
-      "firstObservedAt": "2026-08-06T03:39:24.342Z",
-      "lastObservedAt": "2026-08-06T03:39:24.342Z",
-      "contentHash": "9b657347649203cad664fac3d24057b3834ed55e592b3497ba5788017f2c0d1e",
+      "firstObservedAt": "2026-08-06T14:35:59.056Z",
+      "lastObservedAt": "2026-08-06T14:35:59.056Z",
+      "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9",
       "lifecycleState": "SCHEDULED",
-      "timeState": "UNRESOLVED",
+      "timeState": "RESOLVED",
       "mapState": "MAPPED",
-      "pokemonState": "UNRESOLVED",
+      "pokemonState": "RESOLVED",
       "regionLabelKo": "에스콘 필드 HOKKAIDO",
       "regionLabelOriginal": "ES CON Field Hokkaido",
-      "timeWindows": [],
+      "timeWindows": [
+        {
+          "mode": "DATE_ONLY",
+          "startDateInclusive": "2026-08-11",
+          "endDateExclusive": "2026-08-14",
+          "timeZoneId": "Asia/Tokyo"
+        }
+      ],
       "locationRefs": [
         "npb-es-con-field"
       ],
-      "pokemon": []
+      "pokemon": [
+        {
+          "pokemonKey": "pikachu:normal:none:regional-raid",
+          "role": "RAID_BOSS"
+        }
+      ]
     },
     {
       "noticeId": "pokemon-go-official-jp-regional:npb:giants:2026",
-      "eventId": null,
+      "eventId": "pokemon-go-official-jp-regional:npb:giants:2026",
       "displayState": "ENRICHED",
       "titleDisplay": "Pokémon GO 일본 프로야구 요미우리 자이언츠 홈구장 이벤트",
       "titleOriginal": "Pokémon GO 일본 프로야구 요미우리 자이언츠 홈구장 이벤트",
@@ -598,8 +686,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 일본 지역 공식 공지",
         "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-giants",
-        "observedAt": "2026-08-06T03:39:24.342Z",
-        "contentHash": "9b657347649203cad664fac3d24057b3834ed55e592b3497ba5788017f2c0d1e"
+        "observedAt": "2026-08-06T14:35:59.056Z",
+        "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -607,24 +695,36 @@
         "keyword:stadium",
         "keyword:npb"
       ],
-      "firstObservedAt": "2026-08-06T03:39:24.342Z",
-      "lastObservedAt": "2026-08-06T03:39:24.342Z",
-      "contentHash": "9b657347649203cad664fac3d24057b3834ed55e592b3497ba5788017f2c0d1e",
-      "lifecycleState": "SCHEDULED",
-      "timeState": "UNRESOLVED",
+      "firstObservedAt": "2026-08-06T14:35:59.056Z",
+      "lastObservedAt": "2026-08-06T14:35:59.056Z",
+      "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9",
+      "lifecycleState": "ENDED",
+      "timeState": "RESOLVED",
       "mapState": "MAPPED",
-      "pokemonState": "UNRESOLVED",
+      "pokemonState": "RESOLVED",
       "regionLabelKo": "도쿄 돔",
       "regionLabelOriginal": "Tokyo Dome",
-      "timeWindows": [],
+      "timeWindows": [
+        {
+          "mode": "DATE_ONLY",
+          "startDateInclusive": "2026-04-03",
+          "endDateExclusive": "2026-04-06",
+          "timeZoneId": "Asia/Tokyo"
+        }
+      ],
       "locationRefs": [
         "npb-tokyo-dome"
       ],
-      "pokemon": []
+      "pokemon": [
+        {
+          "pokemonKey": "pikachu:normal:none:regional-raid",
+          "role": "RAID_BOSS"
+        }
+      ]
     },
     {
       "noticeId": "pokemon-go-official-jp-regional:npb:hawks:2026",
-      "eventId": null,
+      "eventId": "pokemon-go-official-jp-regional:npb:hawks:2026",
       "displayState": "ENRICHED",
       "titleDisplay": "Pokémon GO 일본 프로야구 후쿠오카 소프트뱅크 호크스 홈구장 이벤트",
       "titleOriginal": "Pokémon GO 일본 프로야구 후쿠오카 소프트뱅크 호크스 홈구장 이벤트",
@@ -637,8 +737,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 일본 지역 공식 공지",
         "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-hawks",
-        "observedAt": "2026-08-06T03:39:24.342Z",
-        "contentHash": "9b657347649203cad664fac3d24057b3834ed55e592b3497ba5788017f2c0d1e"
+        "observedAt": "2026-08-06T14:35:59.056Z",
+        "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -646,24 +746,36 @@
         "keyword:stadium",
         "keyword:npb"
       ],
-      "firstObservedAt": "2026-08-06T03:39:24.342Z",
-      "lastObservedAt": "2026-08-06T03:39:24.342Z",
-      "contentHash": "9b657347649203cad664fac3d24057b3834ed55e592b3497ba5788017f2c0d1e",
-      "lifecycleState": "SCHEDULED",
-      "timeState": "UNRESOLVED",
+      "firstObservedAt": "2026-08-06T14:35:59.056Z",
+      "lastObservedAt": "2026-08-06T14:35:59.056Z",
+      "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9",
+      "lifecycleState": "ENDED",
+      "timeState": "RESOLVED",
       "mapState": "MAPPED",
-      "pokemonState": "UNRESOLVED",
+      "pokemonState": "RESOLVED",
       "regionLabelKo": "미즈호 PayPay 돔 후쿠오카",
       "regionLabelOriginal": "Mizuho PayPay Dome Fukuoka",
-      "timeWindows": [],
+      "timeWindows": [
+        {
+          "mode": "DATE_ONLY",
+          "startDateInclusive": "2026-05-01",
+          "endDateExclusive": "2026-05-04",
+          "timeZoneId": "Asia/Tokyo"
+        }
+      ],
       "locationRefs": [
         "npb-paypay-dome"
       ],
-      "pokemon": []
+      "pokemon": [
+        {
+          "pokemonKey": "pikachu:normal:none:regional-raid",
+          "role": "RAID_BOSS"
+        }
+      ]
     },
     {
       "noticeId": "pokemon-go-official-jp-regional:npb:lions:2026",
-      "eventId": null,
+      "eventId": "pokemon-go-official-jp-regional:npb:lions:2026",
       "displayState": "ENRICHED",
       "titleDisplay": "Pokémon GO 일본 프로야구 사이타마 세이부 라이온스 홈구장 이벤트",
       "titleOriginal": "Pokémon GO 일본 프로야구 사이타마 세이부 라이온스 홈구장 이벤트",
@@ -676,8 +788,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 일본 지역 공식 공지",
         "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-lions",
-        "observedAt": "2026-08-06T03:39:24.342Z",
-        "contentHash": "9b657347649203cad664fac3d24057b3834ed55e592b3497ba5788017f2c0d1e"
+        "observedAt": "2026-08-06T14:35:59.056Z",
+        "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -685,24 +797,36 @@
         "keyword:stadium",
         "keyword:npb"
       ],
-      "firstObservedAt": "2026-08-06T03:39:24.342Z",
-      "lastObservedAt": "2026-08-06T03:39:24.342Z",
-      "contentHash": "9b657347649203cad664fac3d24057b3834ed55e592b3497ba5788017f2c0d1e",
-      "lifecycleState": "SCHEDULED",
-      "timeState": "UNRESOLVED",
+      "firstObservedAt": "2026-08-06T14:35:59.056Z",
+      "lastObservedAt": "2026-08-06T14:35:59.056Z",
+      "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9",
+      "lifecycleState": "ENDED",
+      "timeState": "RESOLVED",
       "mapState": "MAPPED",
-      "pokemonState": "UNRESOLVED",
+      "pokemonState": "RESOLVED",
       "regionLabelKo": "벨루나 돔",
       "regionLabelOriginal": "Belluna Dome",
-      "timeWindows": [],
+      "timeWindows": [
+        {
+          "mode": "DATE_ONLY",
+          "startDateInclusive": "2026-05-04",
+          "endDateExclusive": "2026-05-07",
+          "timeZoneId": "Asia/Tokyo"
+        }
+      ],
       "locationRefs": [
         "npb-belluna-dome"
       ],
-      "pokemon": []
+      "pokemon": [
+        {
+          "pokemonKey": "pikachu:normal:none:regional-raid",
+          "role": "RAID_BOSS"
+        }
+      ]
     },
     {
       "noticeId": "pokemon-go-official-jp-regional:npb:marines:2026",
-      "eventId": null,
+      "eventId": "pokemon-go-official-jp-regional:npb:marines:2026",
       "displayState": "ENRICHED",
       "titleDisplay": "Pokémon GO 일본 프로야구 지바 롯데 마린스 홈구장 이벤트",
       "titleOriginal": "Pokémon GO 일본 프로야구 지바 롯데 마린스 홈구장 이벤트",
@@ -715,8 +839,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 일본 지역 공식 공지",
         "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-marines",
-        "observedAt": "2026-08-06T03:39:24.342Z",
-        "contentHash": "9b657347649203cad664fac3d24057b3834ed55e592b3497ba5788017f2c0d1e"
+        "observedAt": "2026-08-06T14:35:59.056Z",
+        "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -724,24 +848,36 @@
         "keyword:stadium",
         "keyword:npb"
       ],
-      "firstObservedAt": "2026-08-06T03:39:24.342Z",
-      "lastObservedAt": "2026-08-06T03:39:24.342Z",
-      "contentHash": "9b657347649203cad664fac3d24057b3834ed55e592b3497ba5788017f2c0d1e",
-      "lifecycleState": "SCHEDULED",
-      "timeState": "UNRESOLVED",
+      "firstObservedAt": "2026-08-06T14:35:59.056Z",
+      "lastObservedAt": "2026-08-06T14:35:59.056Z",
+      "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9",
+      "lifecycleState": "ENDED",
+      "timeState": "RESOLVED",
       "mapState": "MAPPED",
-      "pokemonState": "UNRESOLVED",
+      "pokemonState": "RESOLVED",
       "regionLabelKo": "ZOZO 마린 스타디움",
       "regionLabelOriginal": "ZOZO Marine Stadium",
-      "timeWindows": [],
+      "timeWindows": [
+        {
+          "mode": "DATE_ONLY",
+          "startDateInclusive": "2026-05-15",
+          "endDateExclusive": "2026-05-18",
+          "timeZoneId": "Asia/Tokyo"
+        }
+      ],
       "locationRefs": [
         "npb-zozo-marine"
       ],
-      "pokemon": []
+      "pokemon": [
+        {
+          "pokemonKey": "pikachu:normal:none:regional-raid",
+          "role": "RAID_BOSS"
+        }
+      ]
     },
     {
       "noticeId": "pokemon-go-official-jp-regional:npb:swallows:2026",
-      "eventId": null,
+      "eventId": "pokemon-go-official-jp-regional:npb:swallows:2026",
       "displayState": "ENRICHED",
       "titleDisplay": "Pokémon GO 일본 프로야구 도쿄 야쿠르트 스왈로스 홈구장 이벤트",
       "titleOriginal": "Pokémon GO 일본 프로야구 도쿄 야쿠르트 스왈로스 홈구장 이벤트",
@@ -754,8 +890,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 일본 지역 공식 공지",
         "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-swallows",
-        "observedAt": "2026-08-06T03:39:24.342Z",
-        "contentHash": "9b657347649203cad664fac3d24057b3834ed55e592b3497ba5788017f2c0d1e"
+        "observedAt": "2026-08-06T14:35:59.056Z",
+        "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -763,24 +899,36 @@
         "keyword:stadium",
         "keyword:npb"
       ],
-      "firstObservedAt": "2026-08-06T03:39:24.342Z",
-      "lastObservedAt": "2026-08-06T03:39:24.342Z",
-      "contentHash": "9b657347649203cad664fac3d24057b3834ed55e592b3497ba5788017f2c0d1e",
-      "lifecycleState": "SCHEDULED",
-      "timeState": "UNRESOLVED",
+      "firstObservedAt": "2026-08-06T14:35:59.056Z",
+      "lastObservedAt": "2026-08-06T14:35:59.056Z",
+      "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9",
+      "lifecycleState": "ENDED",
+      "timeState": "RESOLVED",
       "mapState": "MAPPED",
-      "pokemonState": "UNRESOLVED",
+      "pokemonState": "RESOLVED",
       "regionLabelKo": "메이지 진구 구장",
       "regionLabelOriginal": "Meiji Jingu Stadium",
-      "timeWindows": [],
+      "timeWindows": [
+        {
+          "mode": "DATE_ONLY",
+          "startDateInclusive": "2026-07-20",
+          "endDateExclusive": "2026-07-23",
+          "timeZoneId": "Asia/Tokyo"
+        }
+      ],
       "locationRefs": [
         "npb-jingu-stadium"
       ],
-      "pokemon": []
+      "pokemon": [
+        {
+          "pokemonKey": "pikachu:normal:none:regional-raid",
+          "role": "RAID_BOSS"
+        }
+      ]
     },
     {
       "noticeId": "pokemon-go-official-jp-regional:npb:tigers:2026",
-      "eventId": null,
+      "eventId": "pokemon-go-official-jp-regional:npb:tigers:2026",
       "displayState": "ENRICHED",
       "titleDisplay": "Pokémon GO 일본 프로야구 한신 타이거스 홈구장 이벤트",
       "titleOriginal": "Pokémon GO 일본 프로야구 한신 타이거스 홈구장 이벤트",
@@ -793,8 +941,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 일본 지역 공식 공지",
         "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-tigers",
-        "observedAt": "2026-08-06T03:39:24.342Z",
-        "contentHash": "9b657347649203cad664fac3d24057b3834ed55e592b3497ba5788017f2c0d1e"
+        "observedAt": "2026-08-06T14:35:59.056Z",
+        "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -802,20 +950,32 @@
         "keyword:stadium",
         "keyword:npb"
       ],
-      "firstObservedAt": "2026-08-06T03:39:24.342Z",
-      "lastObservedAt": "2026-08-06T03:39:24.342Z",
-      "contentHash": "9b657347649203cad664fac3d24057b3834ed55e592b3497ba5788017f2c0d1e",
-      "lifecycleState": "SCHEDULED",
-      "timeState": "UNRESOLVED",
+      "firstObservedAt": "2026-08-06T14:35:59.056Z",
+      "lastObservedAt": "2026-08-06T14:35:59.056Z",
+      "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9",
+      "lifecycleState": "ENDED",
+      "timeState": "RESOLVED",
       "mapState": "MAPPED",
-      "pokemonState": "UNRESOLVED",
+      "pokemonState": "RESOLVED",
       "regionLabelKo": "한신 고시엔 구장",
       "regionLabelOriginal": "Hanshin Koshien Stadium",
-      "timeWindows": [],
+      "timeWindows": [
+        {
+          "mode": "DATE_ONLY",
+          "startDateInclusive": "2026-04-17",
+          "endDateExclusive": "2026-04-18",
+          "timeZoneId": "Asia/Tokyo"
+        }
+      ],
       "locationRefs": [
         "npb-koshien-stadium"
       ],
-      "pokemon": []
+      "pokemon": [
+        {
+          "pokemonKey": "pikachu:normal:none:regional-raid",
+          "role": "RAID_BOSS"
+        }
+      ]
     }
   ],
   "locations": [
@@ -1319,6 +1479,816 @@
       "firstObservedAt": "2026-08-03T00:00:00.000Z",
       "lastObservedAt": "2026-08-03T00:00:00.000Z",
       "semanticHash": "c8e3a24aea56b889ea3bee4ca8ce77e924f8f0f3d9e166282a2fb9250f923df3"
+    },
+    {
+      "eventId": "pokemon-go-official-fossil-museum:field-museum:2026",
+      "noticeId": "pokemon-go-official-fossil-museum:field-museum:2026",
+      "eventRevisionId": "sha256:636686751ae5ce3a875d4c40964c983cc9a889df364957104b28be75ce08704d",
+      "titleKo": "Pokémon GO 시카고 포켓몬 화석박물관 이벤트",
+      "titleOriginal": "Pokémon GO 시카고 포켓몬 화석박물관 이벤트",
+      "category": "REGIONAL",
+      "summaryKo": "시카고 화석박물관 구역에서 발굴 피카츄와 메가프테라 레이드, 화석 포켓몬과 특별 리서치를 만날 수 있습니다.",
+      "detailsKo": [
+        "지도 위치가 확인되었습니다."
+      ],
+      "lifecycleState": "ACTIVE",
+      "timeWindows": [
+        {
+          "mode": "DATE_ONLY",
+          "startDateInclusive": "2026-05-22",
+          "endDateExclusive": "2027-04-12",
+          "timeZoneId": "America/Chicago"
+        }
+      ],
+      "locationRefs": [
+        "field-museum-chicago"
+      ],
+      "occurrences": [
+        {
+          "occurrenceId": "pokemon-go-official-fossil-museum:field-museum:2026:field-museum-chicago:0",
+          "locationIds": [
+            "field-museum-chicago"
+          ],
+          "time": {
+            "mode": "DATE_ONLY",
+            "startDateInclusive": "2026-05-22",
+            "endDateExclusive": "2027-04-12",
+            "timeZoneId": "America/Chicago"
+          }
+        }
+      ],
+      "pokemon": [
+        {
+          "pokemonKey": "aerodactyl:normal:none:fossil-museum",
+          "role": "RAID_BOSS"
+        },
+        {
+          "pokemonKey": "pikachu:normal:none:regional-raid",
+          "role": "RAID_BOSS"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "pokemon-go-official-fossil-museum",
+          "authority": "OFFICIAL",
+          "lineageId": "pokemon-go-official",
+          "label": "Pokémon GO 화석박물관 공식 공지",
+          "url": "https://pokemongo.com/en/news/pgo-pokemon-fossil-musuem-chicago-2026",
+          "observedAt": "2026-08-06T14:36:00.117Z",
+          "contentHash": "9926e7a4d4763d75dfd57b79c6adf42447cb8a3375ecaa50979e67283ff4452a"
+        }
+      ],
+      "displayState": "ENRICHED",
+      "timeState": "RESOLVED",
+      "mapState": "MAPPED",
+      "pokemonState": "RESOLVED",
+      "firstObservedAt": "2026-08-06T14:36:00.117Z",
+      "lastObservedAt": "2026-08-06T14:36:00.117Z",
+      "semanticHash": "67bf1694f23c855f37913c49302611bfe1375bd1410d5102f0563925a10bf45a"
+    },
+    {
+      "eventId": "pokemon-go-official-jp-regional:npb:baystars:2026",
+      "noticeId": "pokemon-go-official-jp-regional:npb:baystars:2026",
+      "eventRevisionId": "sha256:db5b16a40c348f48130ff017c0f8e3a22b434a2edbd9e8c678d28bf80836f194",
+      "titleKo": "Pokémon GO 일본 프로야구 요코하마 DeNA 베이스타스 홈구장 이벤트",
+      "titleOriginal": "Pokémon GO 일본 프로야구 요코하마 DeNA 베이스타스 홈구장 이벤트",
+      "category": "REGIONAL",
+      "summaryKo": "일본 프로야구 홈구장에서 베이스볼 셔츠 피카츄 레이드와 타임 챌린지가 진행되는 현장 한정 이벤트입니다.",
+      "detailsKo": [
+        "지도 위치가 확인되었습니다."
+      ],
+      "lifecycleState": "ENDED",
+      "timeWindows": [
+        {
+          "mode": "DATE_ONLY",
+          "startDateInclusive": "2026-05-23",
+          "endDateExclusive": "2026-05-25",
+          "timeZoneId": "Asia/Tokyo"
+        }
+      ],
+      "locationRefs": [
+        "npb-yokohama-stadium"
+      ],
+      "occurrences": [
+        {
+          "occurrenceId": "pokemon-go-official-jp-regional:npb:baystars:2026:npb-yokohama-stadium:0",
+          "locationIds": [
+            "npb-yokohama-stadium"
+          ],
+          "time": {
+            "mode": "DATE_ONLY",
+            "startDateInclusive": "2026-05-23",
+            "endDateExclusive": "2026-05-25",
+            "timeZoneId": "Asia/Tokyo"
+          }
+        }
+      ],
+      "pokemon": [
+        {
+          "pokemonKey": "pikachu:normal:none:regional-raid",
+          "role": "RAID_BOSS"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "pokemon-go-official-jp-regional",
+          "authority": "OFFICIAL",
+          "lineageId": "pokemon-go-official",
+          "label": "Pokémon GO 일본 지역 공식 공지",
+          "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-baystars",
+          "observedAt": "2026-08-06T14:35:59.056Z",
+          "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9"
+        }
+      ],
+      "displayState": "ENRICHED",
+      "timeState": "RESOLVED",
+      "mapState": "MAPPED",
+      "pokemonState": "RESOLVED",
+      "firstObservedAt": "2026-08-06T14:35:59.056Z",
+      "lastObservedAt": "2026-08-06T14:35:59.056Z",
+      "semanticHash": "b0a6e6969f70d6108a7f86124c0e867d66afc2e86e0348966749c6386088ac5a"
+    },
+    {
+      "eventId": "pokemon-go-official-jp-regional:npb:buffaloes:2026",
+      "noticeId": "pokemon-go-official-jp-regional:npb:buffaloes:2026",
+      "eventRevisionId": "sha256:fe6e75927e332e42e6392d2f207da3451697798c01112ad697750d7d6d958f5e",
+      "titleKo": "Pokémon GO 일본 프로야구 오릭스 버펄로스 홈구장 이벤트",
+      "titleOriginal": "Pokémon GO 일본 프로야구 오릭스 버펄로스 홈구장 이벤트",
+      "category": "REGIONAL",
+      "summaryKo": "일본 프로야구 홈구장에서 베이스볼 셔츠 피카츄 레이드와 타임 챌린지가 진행되는 현장 한정 이벤트입니다.",
+      "detailsKo": [
+        "지도 위치가 확인되었습니다."
+      ],
+      "lifecycleState": "ENDED",
+      "timeWindows": [
+        {
+          "mode": "DATE_ONLY",
+          "startDateInclusive": "2026-05-08",
+          "endDateExclusive": "2026-05-11",
+          "timeZoneId": "Asia/Tokyo"
+        }
+      ],
+      "locationRefs": [
+        "npb-kyocera-dome"
+      ],
+      "occurrences": [
+        {
+          "occurrenceId": "pokemon-go-official-jp-regional:npb:buffaloes:2026:npb-kyocera-dome:0",
+          "locationIds": [
+            "npb-kyocera-dome"
+          ],
+          "time": {
+            "mode": "DATE_ONLY",
+            "startDateInclusive": "2026-05-08",
+            "endDateExclusive": "2026-05-11",
+            "timeZoneId": "Asia/Tokyo"
+          }
+        }
+      ],
+      "pokemon": [
+        {
+          "pokemonKey": "pikachu:normal:none:regional-raid",
+          "role": "RAID_BOSS"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "pokemon-go-official-jp-regional",
+          "authority": "OFFICIAL",
+          "lineageId": "pokemon-go-official",
+          "label": "Pokémon GO 일본 지역 공식 공지",
+          "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-buffaloes",
+          "observedAt": "2026-08-06T14:35:59.056Z",
+          "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9"
+        }
+      ],
+      "displayState": "ENRICHED",
+      "timeState": "RESOLVED",
+      "mapState": "MAPPED",
+      "pokemonState": "RESOLVED",
+      "firstObservedAt": "2026-08-06T14:35:59.056Z",
+      "lastObservedAt": "2026-08-06T14:35:59.056Z",
+      "semanticHash": "e72a3bddfff38d9efee8035df448b390e81adac837c2dcfdd74b5e34741d4dd7"
+    },
+    {
+      "eventId": "pokemon-go-official-jp-regional:npb:carp:2026",
+      "noticeId": "pokemon-go-official-jp-regional:npb:carp:2026",
+      "eventRevisionId": "sha256:cc0b6cee2c2bde14ebb48ca46889972ec02c6d05863286eeea676303d32640c9",
+      "titleKo": "Pokémon GO 일본 프로야구 히로시마 도요 카프 홈구장 이벤트",
+      "titleOriginal": "Pokémon GO 일본 프로야구 히로시마 도요 카프 홈구장 이벤트",
+      "category": "REGIONAL",
+      "summaryKo": "일본 프로야구 홈구장에서 베이스볼 셔츠 피카츄 레이드와 타임 챌린지가 진행되는 현장 한정 이벤트입니다.",
+      "detailsKo": [
+        "지도 위치가 확인되었습니다."
+      ],
+      "lifecycleState": "ENDED",
+      "timeWindows": [
+        {
+          "mode": "DATE_ONLY",
+          "startDateInclusive": "2026-04-21",
+          "endDateExclusive": "2026-04-24",
+          "timeZoneId": "Asia/Tokyo"
+        }
+      ],
+      "locationRefs": [
+        "npb-mazda-stadium"
+      ],
+      "occurrences": [
+        {
+          "occurrenceId": "pokemon-go-official-jp-regional:npb:carp:2026:npb-mazda-stadium:0",
+          "locationIds": [
+            "npb-mazda-stadium"
+          ],
+          "time": {
+            "mode": "DATE_ONLY",
+            "startDateInclusive": "2026-04-21",
+            "endDateExclusive": "2026-04-24",
+            "timeZoneId": "Asia/Tokyo"
+          }
+        }
+      ],
+      "pokemon": [
+        {
+          "pokemonKey": "pikachu:normal:none:regional-raid",
+          "role": "RAID_BOSS"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "pokemon-go-official-jp-regional",
+          "authority": "OFFICIAL",
+          "lineageId": "pokemon-go-official",
+          "label": "Pokémon GO 일본 지역 공식 공지",
+          "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-carp",
+          "observedAt": "2026-08-06T14:35:59.056Z",
+          "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9"
+        }
+      ],
+      "displayState": "ENRICHED",
+      "timeState": "RESOLVED",
+      "mapState": "MAPPED",
+      "pokemonState": "RESOLVED",
+      "firstObservedAt": "2026-08-06T14:35:59.056Z",
+      "lastObservedAt": "2026-08-06T14:35:59.056Z",
+      "semanticHash": "626f14de9056e5958743b94ddf235a523154f96730212215fca332736f29dd4c"
+    },
+    {
+      "eventId": "pokemon-go-official-jp-regional:npb:dragons:2026",
+      "noticeId": "pokemon-go-official-jp-regional:npb:dragons:2026",
+      "eventRevisionId": "sha256:691b2bb9d8392a464dbec0526442fa41c07508a9409dfb607d5b605aa462f9b1",
+      "titleKo": "Pokémon GO 일본 프로야구 주니치 드래곤스 홈구장 이벤트",
+      "titleOriginal": "Pokémon GO 일본 프로야구 주니치 드래곤스 홈구장 이벤트",
+      "category": "REGIONAL",
+      "summaryKo": "일본 프로야구 홈구장에서 베이스볼 셔츠 피카츄 레이드와 타임 챌린지가 진행되는 현장 한정 이벤트입니다.",
+      "detailsKo": [
+        "지도 위치가 확인되었습니다."
+      ],
+      "lifecycleState": "SCHEDULED",
+      "timeWindows": [
+        {
+          "mode": "DATE_ONLY",
+          "startDateInclusive": "2026-08-21",
+          "endDateExclusive": "2026-08-24",
+          "timeZoneId": "Asia/Tokyo"
+        }
+      ],
+      "locationRefs": [
+        "npb-vantelin-dome"
+      ],
+      "occurrences": [
+        {
+          "occurrenceId": "pokemon-go-official-jp-regional:npb:dragons:2026:npb-vantelin-dome:0",
+          "locationIds": [
+            "npb-vantelin-dome"
+          ],
+          "time": {
+            "mode": "DATE_ONLY",
+            "startDateInclusive": "2026-08-21",
+            "endDateExclusive": "2026-08-24",
+            "timeZoneId": "Asia/Tokyo"
+          }
+        }
+      ],
+      "pokemon": [
+        {
+          "pokemonKey": "pikachu:normal:none:regional-raid",
+          "role": "RAID_BOSS"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "pokemon-go-official-jp-regional",
+          "authority": "OFFICIAL",
+          "lineageId": "pokemon-go-official",
+          "label": "Pokémon GO 일본 지역 공식 공지",
+          "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-dragons",
+          "observedAt": "2026-08-06T14:35:59.056Z",
+          "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9"
+        }
+      ],
+      "displayState": "ENRICHED",
+      "timeState": "RESOLVED",
+      "mapState": "MAPPED",
+      "pokemonState": "RESOLVED",
+      "firstObservedAt": "2026-08-06T14:35:59.056Z",
+      "lastObservedAt": "2026-08-06T14:35:59.056Z",
+      "semanticHash": "44f4260fff4fa0f9d83787b370e62938127b54096814e3ac8bd8505435aa908e"
+    },
+    {
+      "eventId": "pokemon-go-official-jp-regional:npb:eagles:2026",
+      "noticeId": "pokemon-go-official-jp-regional:npb:eagles:2026",
+      "eventRevisionId": "sha256:ac4fd39b8272a9dc27cd76a78320ee76abac63bf534a204ec97cb7b0a0904e17",
+      "titleKo": "Pokémon GO 일본 프로야구 도호쿠 라쿠텐 골든이글스 홈구장 이벤트",
+      "titleOriginal": "Pokémon GO 일본 프로야구 도호쿠 라쿠텐 골든이글스 홈구장 이벤트",
+      "category": "REGIONAL",
+      "summaryKo": "일본 프로야구 홈구장에서 베이스볼 셔츠 피카츄 레이드와 타임 챌린지가 진행되는 현장 한정 이벤트입니다.",
+      "detailsKo": [
+        "지도 위치가 확인되었습니다."
+      ],
+      "lifecycleState": "ENDED",
+      "timeWindows": [
+        {
+          "mode": "DATE_ONLY",
+          "startDateInclusive": "2026-04-10",
+          "endDateExclusive": "2026-04-13",
+          "timeZoneId": "Asia/Tokyo"
+        }
+      ],
+      "locationRefs": [
+        "npb-rakuten-mobile-park"
+      ],
+      "occurrences": [
+        {
+          "occurrenceId": "pokemon-go-official-jp-regional:npb:eagles:2026:npb-rakuten-mobile-park:0",
+          "locationIds": [
+            "npb-rakuten-mobile-park"
+          ],
+          "time": {
+            "mode": "DATE_ONLY",
+            "startDateInclusive": "2026-04-10",
+            "endDateExclusive": "2026-04-13",
+            "timeZoneId": "Asia/Tokyo"
+          }
+        }
+      ],
+      "pokemon": [
+        {
+          "pokemonKey": "pikachu:normal:none:regional-raid",
+          "role": "RAID_BOSS"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "pokemon-go-official-jp-regional",
+          "authority": "OFFICIAL",
+          "lineageId": "pokemon-go-official",
+          "label": "Pokémon GO 일본 지역 공식 공지",
+          "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-eagles",
+          "observedAt": "2026-08-06T14:35:59.056Z",
+          "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9"
+        }
+      ],
+      "displayState": "ENRICHED",
+      "timeState": "RESOLVED",
+      "mapState": "MAPPED",
+      "pokemonState": "RESOLVED",
+      "firstObservedAt": "2026-08-06T14:35:59.056Z",
+      "lastObservedAt": "2026-08-06T14:35:59.056Z",
+      "semanticHash": "736013a1cfb6d3abf7a505d1525f3443dcefde5ca98fce0e6380832d31e0a92a"
+    },
+    {
+      "eventId": "pokemon-go-official-jp-regional:npb:fighters:2026",
+      "noticeId": "pokemon-go-official-jp-regional:npb:fighters:2026",
+      "eventRevisionId": "sha256:fcda974c8ed7c79174f9df9304525814a22aa6052002ef391285d054c352c579",
+      "titleKo": "Pokémon GO 일본 프로야구 홋카이도 닛폰햄 파이터스 홈구장 이벤트",
+      "titleOriginal": "Pokémon GO 일본 프로야구 홋카이도 닛폰햄 파이터스 홈구장 이벤트",
+      "category": "REGIONAL",
+      "summaryKo": "일본 프로야구 홈구장에서 베이스볼 셔츠 피카츄 레이드와 타임 챌린지가 진행되는 현장 한정 이벤트입니다.",
+      "detailsKo": [
+        "지도 위치가 확인되었습니다."
+      ],
+      "lifecycleState": "SCHEDULED",
+      "timeWindows": [
+        {
+          "mode": "DATE_ONLY",
+          "startDateInclusive": "2026-08-11",
+          "endDateExclusive": "2026-08-14",
+          "timeZoneId": "Asia/Tokyo"
+        }
+      ],
+      "locationRefs": [
+        "npb-es-con-field"
+      ],
+      "occurrences": [
+        {
+          "occurrenceId": "pokemon-go-official-jp-regional:npb:fighters:2026:npb-es-con-field:0",
+          "locationIds": [
+            "npb-es-con-field"
+          ],
+          "time": {
+            "mode": "DATE_ONLY",
+            "startDateInclusive": "2026-08-11",
+            "endDateExclusive": "2026-08-14",
+            "timeZoneId": "Asia/Tokyo"
+          }
+        }
+      ],
+      "pokemon": [
+        {
+          "pokemonKey": "pikachu:normal:none:regional-raid",
+          "role": "RAID_BOSS"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "pokemon-go-official-jp-regional",
+          "authority": "OFFICIAL",
+          "lineageId": "pokemon-go-official",
+          "label": "Pokémon GO 일본 지역 공식 공지",
+          "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-fighters",
+          "observedAt": "2026-08-06T14:35:59.056Z",
+          "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9"
+        }
+      ],
+      "displayState": "ENRICHED",
+      "timeState": "RESOLVED",
+      "mapState": "MAPPED",
+      "pokemonState": "RESOLVED",
+      "firstObservedAt": "2026-08-06T14:35:59.056Z",
+      "lastObservedAt": "2026-08-06T14:35:59.056Z",
+      "semanticHash": "a49311b39a92252a2ad10558dfd57ee3d24ae40b349d9383c06234d60948d57a"
+    },
+    {
+      "eventId": "pokemon-go-official-jp-regional:npb:giants:2026",
+      "noticeId": "pokemon-go-official-jp-regional:npb:giants:2026",
+      "eventRevisionId": "sha256:302981b33497bccf7b8255edcf9d725466a238f2dfbc01aa47f0e0c563374dc6",
+      "titleKo": "Pokémon GO 일본 프로야구 요미우리 자이언츠 홈구장 이벤트",
+      "titleOriginal": "Pokémon GO 일본 프로야구 요미우리 자이언츠 홈구장 이벤트",
+      "category": "REGIONAL",
+      "summaryKo": "일본 프로야구 홈구장에서 베이스볼 셔츠 피카츄 레이드와 타임 챌린지가 진행되는 현장 한정 이벤트입니다.",
+      "detailsKo": [
+        "지도 위치가 확인되었습니다."
+      ],
+      "lifecycleState": "ENDED",
+      "timeWindows": [
+        {
+          "mode": "DATE_ONLY",
+          "startDateInclusive": "2026-04-03",
+          "endDateExclusive": "2026-04-06",
+          "timeZoneId": "Asia/Tokyo"
+        }
+      ],
+      "locationRefs": [
+        "npb-tokyo-dome"
+      ],
+      "occurrences": [
+        {
+          "occurrenceId": "pokemon-go-official-jp-regional:npb:giants:2026:npb-tokyo-dome:0",
+          "locationIds": [
+            "npb-tokyo-dome"
+          ],
+          "time": {
+            "mode": "DATE_ONLY",
+            "startDateInclusive": "2026-04-03",
+            "endDateExclusive": "2026-04-06",
+            "timeZoneId": "Asia/Tokyo"
+          }
+        }
+      ],
+      "pokemon": [
+        {
+          "pokemonKey": "pikachu:normal:none:regional-raid",
+          "role": "RAID_BOSS"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "pokemon-go-official-jp-regional",
+          "authority": "OFFICIAL",
+          "lineageId": "pokemon-go-official",
+          "label": "Pokémon GO 일본 지역 공식 공지",
+          "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-giants",
+          "observedAt": "2026-08-06T14:35:59.056Z",
+          "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9"
+        }
+      ],
+      "displayState": "ENRICHED",
+      "timeState": "RESOLVED",
+      "mapState": "MAPPED",
+      "pokemonState": "RESOLVED",
+      "firstObservedAt": "2026-08-06T14:35:59.056Z",
+      "lastObservedAt": "2026-08-06T14:35:59.056Z",
+      "semanticHash": "7f40269b2d23d18757b74406ecb98eb98613af253e614863817582b0705d0498"
+    },
+    {
+      "eventId": "pokemon-go-official-jp-regional:npb:hawks:2026",
+      "noticeId": "pokemon-go-official-jp-regional:npb:hawks:2026",
+      "eventRevisionId": "sha256:c466cb360ed7efab5cb4f4876e33e5eda834f01347fd9818c1342e4c31618cbf",
+      "titleKo": "Pokémon GO 일본 프로야구 후쿠오카 소프트뱅크 호크스 홈구장 이벤트",
+      "titleOriginal": "Pokémon GO 일본 프로야구 후쿠오카 소프트뱅크 호크스 홈구장 이벤트",
+      "category": "REGIONAL",
+      "summaryKo": "일본 프로야구 홈구장에서 베이스볼 셔츠 피카츄 레이드와 타임 챌린지가 진행되는 현장 한정 이벤트입니다.",
+      "detailsKo": [
+        "지도 위치가 확인되었습니다."
+      ],
+      "lifecycleState": "ENDED",
+      "timeWindows": [
+        {
+          "mode": "DATE_ONLY",
+          "startDateInclusive": "2026-05-01",
+          "endDateExclusive": "2026-05-04",
+          "timeZoneId": "Asia/Tokyo"
+        }
+      ],
+      "locationRefs": [
+        "npb-paypay-dome"
+      ],
+      "occurrences": [
+        {
+          "occurrenceId": "pokemon-go-official-jp-regional:npb:hawks:2026:npb-paypay-dome:0",
+          "locationIds": [
+            "npb-paypay-dome"
+          ],
+          "time": {
+            "mode": "DATE_ONLY",
+            "startDateInclusive": "2026-05-01",
+            "endDateExclusive": "2026-05-04",
+            "timeZoneId": "Asia/Tokyo"
+          }
+        }
+      ],
+      "pokemon": [
+        {
+          "pokemonKey": "pikachu:normal:none:regional-raid",
+          "role": "RAID_BOSS"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "pokemon-go-official-jp-regional",
+          "authority": "OFFICIAL",
+          "lineageId": "pokemon-go-official",
+          "label": "Pokémon GO 일본 지역 공식 공지",
+          "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-hawks",
+          "observedAt": "2026-08-06T14:35:59.056Z",
+          "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9"
+        }
+      ],
+      "displayState": "ENRICHED",
+      "timeState": "RESOLVED",
+      "mapState": "MAPPED",
+      "pokemonState": "RESOLVED",
+      "firstObservedAt": "2026-08-06T14:35:59.056Z",
+      "lastObservedAt": "2026-08-06T14:35:59.056Z",
+      "semanticHash": "946881dbe69365d5aebcf642679ef4e644503175008bb717fd8ab08e37872282"
+    },
+    {
+      "eventId": "pokemon-go-official-jp-regional:npb:lions:2026",
+      "noticeId": "pokemon-go-official-jp-regional:npb:lions:2026",
+      "eventRevisionId": "sha256:43edca4e52a45cf8e8afdec73b23b1cc50f7679eaba3c860a5b759b286ca0693",
+      "titleKo": "Pokémon GO 일본 프로야구 사이타마 세이부 라이온스 홈구장 이벤트",
+      "titleOriginal": "Pokémon GO 일본 프로야구 사이타마 세이부 라이온스 홈구장 이벤트",
+      "category": "REGIONAL",
+      "summaryKo": "일본 프로야구 홈구장에서 베이스볼 셔츠 피카츄 레이드와 타임 챌린지가 진행되는 현장 한정 이벤트입니다.",
+      "detailsKo": [
+        "지도 위치가 확인되었습니다."
+      ],
+      "lifecycleState": "ENDED",
+      "timeWindows": [
+        {
+          "mode": "DATE_ONLY",
+          "startDateInclusive": "2026-05-04",
+          "endDateExclusive": "2026-05-07",
+          "timeZoneId": "Asia/Tokyo"
+        }
+      ],
+      "locationRefs": [
+        "npb-belluna-dome"
+      ],
+      "occurrences": [
+        {
+          "occurrenceId": "pokemon-go-official-jp-regional:npb:lions:2026:npb-belluna-dome:0",
+          "locationIds": [
+            "npb-belluna-dome"
+          ],
+          "time": {
+            "mode": "DATE_ONLY",
+            "startDateInclusive": "2026-05-04",
+            "endDateExclusive": "2026-05-07",
+            "timeZoneId": "Asia/Tokyo"
+          }
+        }
+      ],
+      "pokemon": [
+        {
+          "pokemonKey": "pikachu:normal:none:regional-raid",
+          "role": "RAID_BOSS"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "pokemon-go-official-jp-regional",
+          "authority": "OFFICIAL",
+          "lineageId": "pokemon-go-official",
+          "label": "Pokémon GO 일본 지역 공식 공지",
+          "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-lions",
+          "observedAt": "2026-08-06T14:35:59.056Z",
+          "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9"
+        }
+      ],
+      "displayState": "ENRICHED",
+      "timeState": "RESOLVED",
+      "mapState": "MAPPED",
+      "pokemonState": "RESOLVED",
+      "firstObservedAt": "2026-08-06T14:35:59.056Z",
+      "lastObservedAt": "2026-08-06T14:35:59.056Z",
+      "semanticHash": "2c8dbd13f0ef06e529403d0ac5d4f2b903d7a1b9fd37d707fe2734ddcd63db25"
+    },
+    {
+      "eventId": "pokemon-go-official-jp-regional:npb:marines:2026",
+      "noticeId": "pokemon-go-official-jp-regional:npb:marines:2026",
+      "eventRevisionId": "sha256:0b569d6c63687e64095bc4e32e91aba92ba6fdee8b35cbd0a285c6325d4881a2",
+      "titleKo": "Pokémon GO 일본 프로야구 지바 롯데 마린스 홈구장 이벤트",
+      "titleOriginal": "Pokémon GO 일본 프로야구 지바 롯데 마린스 홈구장 이벤트",
+      "category": "REGIONAL",
+      "summaryKo": "일본 프로야구 홈구장에서 베이스볼 셔츠 피카츄 레이드와 타임 챌린지가 진행되는 현장 한정 이벤트입니다.",
+      "detailsKo": [
+        "지도 위치가 확인되었습니다."
+      ],
+      "lifecycleState": "ENDED",
+      "timeWindows": [
+        {
+          "mode": "DATE_ONLY",
+          "startDateInclusive": "2026-05-15",
+          "endDateExclusive": "2026-05-18",
+          "timeZoneId": "Asia/Tokyo"
+        }
+      ],
+      "locationRefs": [
+        "npb-zozo-marine"
+      ],
+      "occurrences": [
+        {
+          "occurrenceId": "pokemon-go-official-jp-regional:npb:marines:2026:npb-zozo-marine:0",
+          "locationIds": [
+            "npb-zozo-marine"
+          ],
+          "time": {
+            "mode": "DATE_ONLY",
+            "startDateInclusive": "2026-05-15",
+            "endDateExclusive": "2026-05-18",
+            "timeZoneId": "Asia/Tokyo"
+          }
+        }
+      ],
+      "pokemon": [
+        {
+          "pokemonKey": "pikachu:normal:none:regional-raid",
+          "role": "RAID_BOSS"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "pokemon-go-official-jp-regional",
+          "authority": "OFFICIAL",
+          "lineageId": "pokemon-go-official",
+          "label": "Pokémon GO 일본 지역 공식 공지",
+          "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-marines",
+          "observedAt": "2026-08-06T14:35:59.056Z",
+          "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9"
+        }
+      ],
+      "displayState": "ENRICHED",
+      "timeState": "RESOLVED",
+      "mapState": "MAPPED",
+      "pokemonState": "RESOLVED",
+      "firstObservedAt": "2026-08-06T14:35:59.056Z",
+      "lastObservedAt": "2026-08-06T14:35:59.056Z",
+      "semanticHash": "af3d5fb17276a7a97c2f8b289f7da4d4a24ce99031803a4babd4e5caacba3ee3"
+    },
+    {
+      "eventId": "pokemon-go-official-jp-regional:npb:swallows:2026",
+      "noticeId": "pokemon-go-official-jp-regional:npb:swallows:2026",
+      "eventRevisionId": "sha256:138e5fc34a83e694ceb637844ee6ca24ee9d4176969973fafdd6cb2b98a30b81",
+      "titleKo": "Pokémon GO 일본 프로야구 도쿄 야쿠르트 스왈로스 홈구장 이벤트",
+      "titleOriginal": "Pokémon GO 일본 프로야구 도쿄 야쿠르트 스왈로스 홈구장 이벤트",
+      "category": "REGIONAL",
+      "summaryKo": "일본 프로야구 홈구장에서 베이스볼 셔츠 피카츄 레이드와 타임 챌린지가 진행되는 현장 한정 이벤트입니다.",
+      "detailsKo": [
+        "지도 위치가 확인되었습니다."
+      ],
+      "lifecycleState": "ENDED",
+      "timeWindows": [
+        {
+          "mode": "DATE_ONLY",
+          "startDateInclusive": "2026-07-20",
+          "endDateExclusive": "2026-07-23",
+          "timeZoneId": "Asia/Tokyo"
+        }
+      ],
+      "locationRefs": [
+        "npb-jingu-stadium"
+      ],
+      "occurrences": [
+        {
+          "occurrenceId": "pokemon-go-official-jp-regional:npb:swallows:2026:npb-jingu-stadium:0",
+          "locationIds": [
+            "npb-jingu-stadium"
+          ],
+          "time": {
+            "mode": "DATE_ONLY",
+            "startDateInclusive": "2026-07-20",
+            "endDateExclusive": "2026-07-23",
+            "timeZoneId": "Asia/Tokyo"
+          }
+        }
+      ],
+      "pokemon": [
+        {
+          "pokemonKey": "pikachu:normal:none:regional-raid",
+          "role": "RAID_BOSS"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "pokemon-go-official-jp-regional",
+          "authority": "OFFICIAL",
+          "lineageId": "pokemon-go-official",
+          "label": "Pokémon GO 일본 지역 공식 공지",
+          "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-swallows",
+          "observedAt": "2026-08-06T14:35:59.056Z",
+          "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9"
+        }
+      ],
+      "displayState": "ENRICHED",
+      "timeState": "RESOLVED",
+      "mapState": "MAPPED",
+      "pokemonState": "RESOLVED",
+      "firstObservedAt": "2026-08-06T14:35:59.056Z",
+      "lastObservedAt": "2026-08-06T14:35:59.056Z",
+      "semanticHash": "35ede42244e08240124dacd1694767cd14154aeadf2195472c932dd01acdec9d"
+    },
+    {
+      "eventId": "pokemon-go-official-jp-regional:npb:tigers:2026",
+      "noticeId": "pokemon-go-official-jp-regional:npb:tigers:2026",
+      "eventRevisionId": "sha256:544150b9a62759b0f5a3127182355124c19d59a77ba79b597d6c1ce681e78663",
+      "titleKo": "Pokémon GO 일본 프로야구 한신 타이거스 홈구장 이벤트",
+      "titleOriginal": "Pokémon GO 일본 프로야구 한신 타이거스 홈구장 이벤트",
+      "category": "REGIONAL",
+      "summaryKo": "일본 프로야구 홈구장에서 베이스볼 셔츠 피카츄 레이드와 타임 챌린지가 진행되는 현장 한정 이벤트입니다.",
+      "detailsKo": [
+        "지도 위치가 확인되었습니다."
+      ],
+      "lifecycleState": "ENDED",
+      "timeWindows": [
+        {
+          "mode": "DATE_ONLY",
+          "startDateInclusive": "2026-04-17",
+          "endDateExclusive": "2026-04-18",
+          "timeZoneId": "Asia/Tokyo"
+        }
+      ],
+      "locationRefs": [
+        "npb-koshien-stadium"
+      ],
+      "occurrences": [
+        {
+          "occurrenceId": "pokemon-go-official-jp-regional:npb:tigers:2026:npb-koshien-stadium:0",
+          "locationIds": [
+            "npb-koshien-stadium"
+          ],
+          "time": {
+            "mode": "DATE_ONLY",
+            "startDateInclusive": "2026-04-17",
+            "endDateExclusive": "2026-04-18",
+            "timeZoneId": "Asia/Tokyo"
+          }
+        }
+      ],
+      "pokemon": [
+        {
+          "pokemonKey": "pikachu:normal:none:regional-raid",
+          "role": "RAID_BOSS"
+        }
+      ],
+      "sources": [
+        {
+          "sourceId": "pokemon-go-official-jp-regional",
+          "authority": "OFFICIAL",
+          "lineageId": "pokemon-go-official",
+          "label": "Pokémon GO 일본 지역 공식 공지",
+          "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-tigers",
+          "observedAt": "2026-08-06T14:35:59.056Z",
+          "contentHash": "52133f71db0ef1c1383b356fc74f505ecc958a726d2f517904c899a5be6449c9"
+        }
+      ],
+      "displayState": "ENRICHED",
+      "timeState": "RESOLVED",
+      "mapState": "MAPPED",
+      "pokemonState": "RESOLVED",
+      "firstObservedAt": "2026-08-06T14:35:59.056Z",
+      "lastObservedAt": "2026-08-06T14:35:59.056Z",
+      "semanticHash": "4210a4fece78e6b47e435a638c05b97cba94cd48c061f3903bea16e9ce5300a3"
     }
   ]
 }
