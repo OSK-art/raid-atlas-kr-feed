@@ -1,9 +1,9 @@
 {
   "schemaVersion": "raid-atlas-regional-feed-v1",
   "revisionId": "sha256:3179a554425c59445b3d6206a9147bcc47bbfa2455fc0e8c627a1d2204f33ec0",
-  "generatedAt": "2026-09-09T16:39:46.479Z",
-  "lastSuccessfulObservationAt": "2026-09-09T16:39:46.479Z",
-  "staleAfter": "2026-09-10T00:39:46.479Z",
+  "generatedAt": "2026-09-09T20:56:40.519Z",
+  "lastSuccessfulObservationAt": "2026-09-09T20:56:40.519Z",
+  "staleAfter": "2026-09-10T04:56:40.519Z",
   "tzdbVersion": "2026a",
   "catalogVersions": {
     "locations": "location-catalog-v1",
@@ -27,16 +27,16 @@
       "contentHash": "1bd5e6a577101da552873f3bc4e96c4c3179072b3a5960da8dfcdbe1535d3a51",
       "discoveredCount": 0,
       "publishedNoticeCount": 0,
-      "detail": "fetch failed"
+      "detail": "Source returned HTTP 429"
     },
     {
       "sourceId": "gdelt-regional-query-ja",
-      "state": "STALE",
-      "lastSuccessAt": "2026-09-09T04:44:52.213Z",
+      "state": "HEALTHY",
+      "lastSuccessAt": "2026-09-09T20:56:51.971Z",
       "contentHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
       "discoveredCount": 0,
       "publishedNoticeCount": 0,
-      "detail": "Source returned HTTP 429"
+      "detail": null
     },
     {
       "sourceId": "pokemon-go-official-fossil-museum",
@@ -45,7 +45,7 @@
       "contentHash": "0566c753a0aac0509fd18f00d05be8da7cb9c0a54b55cb4f892265ed7aa3fb76",
       "discoveredCount": 1,
       "publishedNoticeCount": 1,
-      "detail": null
+      "detail": "최소 수집 간격 미경과, 전체 LKG 1건 유지"
     },
     {
       "sourceId": "pokemon-go-official-global-news",
@@ -54,7 +54,7 @@
       "contentHash": "88ec30810eb1f3d898ebc11a8deaae1da26a8c72468467103b7bcdfa2fd89356",
       "discoveredCount": 26,
       "publishedNoticeCount": 26,
-      "detail": null
+      "detail": "최소 수집 간격 미경과, 전체 LKG 26건 유지"
     },
     {
       "sourceId": "pokemon-go-official-jp-regional",
@@ -63,7 +63,7 @@
       "contentHash": "b356e3aee7e0a19be1bf8790e7fb3594b91f91ea49eba82d44625a1fd7473b7f",
       "discoveredCount": 16,
       "publishedNoticeCount": 16,
-      "detail": null
+      "detail": "최소 수집 간격 미경과, 전체 LKG 16건 유지"
     },
     {
       "sourceId": "scrapedduck-regional-discovery",
@@ -72,7 +72,7 @@
       "contentHash": "f81dbed71259d9b8f20fef59566560a153c95d5193d9ea1b961bb37f92a56fdd",
       "discoveredCount": 0,
       "publishedNoticeCount": 0,
-      "detail": null
+      "detail": "최소 수집 간격 미경과, 전체 LKG 0건 유지"
     }
   ],
   "heldCandidateCount": 0,
