@@ -1,9 +1,9 @@
 {
   "schemaVersion": "raid-atlas-regional-feed-v1",
-  "revisionId": "sha256:75e321e8cf6134a40991efe5044142a7b7e7370921300c33f38d79efa12014a0",
-  "generatedAt": "2026-09-13T16:18:51.427Z",
-  "lastSuccessfulObservationAt": "2026-09-13T16:18:51.427Z",
-  "staleAfter": "2026-09-14T00:18:51.427Z",
+  "revisionId": "sha256:c967a88b9e4da76e81d953a7c048e9df140a3f4f05e2697be7efa51c497e358d",
+  "generatedAt": "2026-09-13T20:51:19.238Z",
+  "lastSuccessfulObservationAt": "2026-09-13T20:51:19.238Z",
+  "staleAfter": "2026-09-14T04:51:19.238Z",
   "tzdbVersion": "2026a",
   "catalogVersions": {
     "locations": "location-catalog-v1",
@@ -14,7 +14,7 @@
     {
       "sourceId": "field-museum-discovery",
       "state": "STALE",
-      "lastSuccessAt": "2026-09-13T11:54:41.593Z",
+      "lastSuccessAt": "2026-09-13T20:51:35.437Z",
       "contentHash": "6eac2766452bef4eccaf77f54bbae86264ecff85cf0247f4100a70b8b799bf55",
       "discoveredCount": 0,
       "publishedNoticeCount": 0,
@@ -22,12 +22,12 @@
     },
     {
       "sourceId": "gdelt-regional-query",
-      "state": "HEALTHY",
+      "state": "STALE",
       "lastSuccessAt": "2026-09-13T11:54:43.050Z",
       "contentHash": "1bd5e6a577101da552873f3bc4e96c4c3179072b3a5960da8dfcdbe1535d3a51",
       "discoveredCount": 0,
       "publishedNoticeCount": 0,
-      "detail": "최소 수집 간격 미경과, 전체 LKG 0건 유지"
+      "detail": "Source returned HTTP 429"
     },
     {
       "sourceId": "gdelt-regional-query-ja",
@@ -36,43 +36,43 @@
       "contentHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
       "discoveredCount": 0,
       "publishedNoticeCount": 0,
-      "detail": "Source returned HTTP 429"
+      "detail": "This operation was aborted"
     },
     {
       "sourceId": "pokemon-go-official-fossil-museum",
       "state": "HEALTHY",
-      "lastSuccessAt": "2026-09-13T11:54:40.437Z",
-      "contentHash": "8cd7f9010097f9b9757de1f213c31461f5875fa6434f6528abff64e439ade212",
+      "lastSuccessAt": "2026-09-13T20:51:35.133Z",
+      "contentHash": "e4a342037f7edcfb90dfde6cab7a2bcabdeeba1e004fbb06ae93068c48284df4",
       "discoveredCount": 2,
       "publishedNoticeCount": 2,
-      "detail": "최소 수집 간격 미경과, 전체 LKG 2건 유지"
+      "detail": null
     },
     {
       "sourceId": "pokemon-go-official-global-news",
       "state": "HEALTHY",
-      "lastSuccessAt": "2026-09-13T11:54:36.423Z",
-      "contentHash": "14b228f4456b33456810ab3f7318fa647bebebb617f28318dda75ec5b5ef62cd",
+      "lastSuccessAt": "2026-09-13T20:51:33.604Z",
+      "contentHash": "619b5a859d3af959bc5eb83843b95719e81254395f91696f9bef17443de40cb2",
       "discoveredCount": 26,
       "publishedNoticeCount": 26,
-      "detail": "최소 수집 간격 미경과, 전체 LKG 26건 유지"
+      "detail": null
     },
     {
       "sourceId": "pokemon-go-official-jp-regional",
       "state": "HEALTHY",
-      "lastSuccessAt": "2026-09-13T11:54:38.353Z",
-      "contentHash": "dca94eacd3e73b5d6d2869265433166eb04fed4e4f29dd6d83d7904b7b24d11f",
+      "lastSuccessAt": "2026-09-13T20:51:34.499Z",
+      "contentHash": "4426819aa60132078fbf8a47a81e53e6a7194aa3a362254ff3852030fec1eb74",
       "discoveredCount": 16,
       "publishedNoticeCount": 16,
-      "detail": "최소 수집 간격 미경과, 전체 LKG 16건 유지"
+      "detail": null
     },
     {
       "sourceId": "scrapedduck-regional-discovery",
       "state": "HEALTHY",
-      "lastSuccessAt": "2026-09-13T11:54:22.019Z",
+      "lastSuccessAt": "2026-09-13T20:51:19.249Z",
       "contentHash": "270b49fa0929ce3fe8a687ce44b9c02f7bc648cb00613f08e0479f9a6dfd8f8e",
       "discoveredCount": 0,
       "publishedNoticeCount": 0,
-      "detail": "최소 수집 간격 미경과, 전체 LKG 0건 유지"
+      "detail": null
     }
   ],
   "heldCandidateCount": 0,
@@ -186,8 +186,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 화석박물관 공식 공지",
         "url": "https://pokemongo.com/news/boston-city-safari-know-before-you-go",
-        "observedAt": "2026-09-13T11:54:40.437Z",
-        "contentHash": "8cd7f9010097f9b9757de1f213c31461f5875fa6434f6528abff64e439ade212"
+        "observedAt": "2026-09-13T20:51:35.133Z",
+        "contentHash": "e4a342037f7edcfb90dfde6cab7a2bcabdeeba1e004fbb06ae93068c48284df4"
       },
       "regionalEvidence": [
         "keyword:city safari",
@@ -195,9 +195,9 @@
         "source-family:REGIONAL",
         "source-family:VENUE"
       ],
-      "firstObservedAt": "2026-09-13T11:54:40.437Z",
-      "lastObservedAt": "2026-09-13T11:54:40.437Z",
-      "contentHash": "8cd7f9010097f9b9757de1f213c31461f5875fa6434f6528abff64e439ade212",
+      "firstObservedAt": "2026-09-13T20:51:35.133Z",
+      "lastObservedAt": "2026-09-13T20:51:35.133Z",
+      "contentHash": "e4a342037f7edcfb90dfde6cab7a2bcabdeeba1e004fbb06ae93068c48284df4",
       "lifecycleState": "ENDED",
       "timeState": "RESOLVED",
       "mapState": "UNMAPPED",
@@ -230,8 +230,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 화석박물관 공식 공지",
         "url": "https://pokemongo.com/en/news/pgo-pokemon-fossil-musuem-chicago-2026",
-        "observedAt": "2026-09-13T11:54:38.446Z",
-        "contentHash": "fae83507e7764e0d7566adfbdc4f628ca1aa513a87d81e215146756b290d9d4d"
+        "observedAt": "2026-09-13T20:51:34.735Z",
+        "contentHash": "86a7a5d3aa81dfc458cdfe42bddf52d92dd975a3376344bde814fd4d048a4ab8"
       },
       "regionalEvidence": [
         "source-family:MUSEUM",
@@ -239,9 +239,9 @@
         "keyword:museum",
         "keyword:exclusive"
       ],
-      "firstObservedAt": "2026-09-13T11:54:38.446Z",
-      "lastObservedAt": "2026-09-13T11:54:38.446Z",
-      "contentHash": "fae83507e7764e0d7566adfbdc4f628ca1aa513a87d81e215146756b290d9d4d",
+      "firstObservedAt": "2026-09-13T20:51:34.735Z",
+      "lastObservedAt": "2026-09-13T20:51:34.735Z",
+      "contentHash": "86a7a5d3aa81dfc458cdfe42bddf52d92dd975a3376344bde814fd4d048a4ab8",
       "lifecycleState": "ACTIVE",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
@@ -285,8 +285,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 글로벌 공식 지역 공지",
         "url": "https://pokemongo.com/news/mlb-2026#mlb-arizona-diamondbacks",
-        "observedAt": "2026-09-13T11:54:23.333Z",
-        "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e"
+        "observedAt": "2026-09-13T20:51:19.747Z",
+        "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -295,9 +295,9 @@
         "keyword:mlb",
         "official-master-schedule"
       ],
-      "firstObservedAt": "2026-09-13T11:54:23.333Z",
-      "lastObservedAt": "2026-09-13T11:54:23.333Z",
-      "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e",
+      "firstObservedAt": "2026-09-13T20:51:19.747Z",
+      "lastObservedAt": "2026-09-13T20:51:19.747Z",
+      "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac",
       "lifecycleState": "ENDED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
@@ -337,8 +337,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 글로벌 공식 지역 공지",
         "url": "https://pokemongo.com/news/mlb-2026#mlb-baltimore-orioles",
-        "observedAt": "2026-09-13T11:54:23.333Z",
-        "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e"
+        "observedAt": "2026-09-13T20:51:19.747Z",
+        "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -347,9 +347,9 @@
         "keyword:mlb",
         "official-master-schedule"
       ],
-      "firstObservedAt": "2026-09-13T11:54:23.333Z",
-      "lastObservedAt": "2026-09-13T11:54:23.333Z",
-      "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e",
+      "firstObservedAt": "2026-09-13T20:51:19.747Z",
+      "lastObservedAt": "2026-09-13T20:51:19.747Z",
+      "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac",
       "lifecycleState": "ENDED",
       "timeState": "RESOLVED",
       "mapState": "UNMAPPED",
@@ -387,8 +387,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 글로벌 공식 지역 공지",
         "url": "https://pokemongo.com/news/mlb-2026#mlb-boston-red-sox",
-        "observedAt": "2026-09-13T11:54:23.333Z",
-        "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e"
+        "observedAt": "2026-09-13T20:51:19.747Z",
+        "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -397,9 +397,9 @@
         "keyword:mlb",
         "official-master-schedule"
       ],
-      "firstObservedAt": "2026-09-13T11:54:23.333Z",
-      "lastObservedAt": "2026-09-13T11:54:23.333Z",
-      "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e",
+      "firstObservedAt": "2026-09-13T20:51:19.747Z",
+      "lastObservedAt": "2026-09-13T20:51:19.747Z",
+      "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac",
       "lifecycleState": "SCHEDULED",
       "timeState": "RESOLVED",
       "mapState": "UNMAPPED",
@@ -437,8 +437,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 글로벌 공식 지역 공지",
         "url": "https://pokemongo.com/news/mlb-2026#mlb-chicago-white-sox",
-        "observedAt": "2026-09-13T11:54:23.333Z",
-        "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e"
+        "observedAt": "2026-09-13T20:51:19.747Z",
+        "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -447,9 +447,9 @@
         "keyword:mlb",
         "official-master-schedule"
       ],
-      "firstObservedAt": "2026-09-13T11:54:23.333Z",
-      "lastObservedAt": "2026-09-13T11:54:23.333Z",
-      "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e",
+      "firstObservedAt": "2026-09-13T20:51:19.747Z",
+      "lastObservedAt": "2026-09-13T20:51:19.747Z",
+      "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac",
       "lifecycleState": "ENDED",
       "timeState": "RESOLVED",
       "mapState": "UNMAPPED",
@@ -487,8 +487,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 글로벌 공식 지역 공지",
         "url": "https://pokemongo.com/news/mlb-2026#mlb-cleveland-guardians",
-        "observedAt": "2026-09-13T11:54:23.333Z",
-        "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e"
+        "observedAt": "2026-09-13T20:51:19.747Z",
+        "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -497,9 +497,9 @@
         "keyword:mlb",
         "official-master-schedule"
       ],
-      "firstObservedAt": "2026-09-13T11:54:23.333Z",
-      "lastObservedAt": "2026-09-13T11:54:23.333Z",
-      "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e",
+      "firstObservedAt": "2026-09-13T20:51:19.747Z",
+      "lastObservedAt": "2026-09-13T20:51:19.747Z",
+      "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac",
       "lifecycleState": "ENDED",
       "timeState": "RESOLVED",
       "mapState": "UNMAPPED",
@@ -537,8 +537,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 글로벌 공식 지역 공지",
         "url": "https://pokemongo.com/news/mlb-2026#mlb-miami-marlins",
-        "observedAt": "2026-09-13T11:54:23.333Z",
-        "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e"
+        "observedAt": "2026-09-13T20:51:19.747Z",
+        "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -547,9 +547,9 @@
         "keyword:mlb",
         "official-master-schedule"
       ],
-      "firstObservedAt": "2026-09-13T11:54:23.333Z",
-      "lastObservedAt": "2026-09-13T11:54:23.333Z",
-      "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e",
+      "firstObservedAt": "2026-09-13T20:51:19.747Z",
+      "lastObservedAt": "2026-09-13T20:51:19.747Z",
+      "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac",
       "lifecycleState": "ENDED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
@@ -589,8 +589,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 글로벌 공식 지역 공지",
         "url": "https://pokemongo.com/news/mlb-2026#mlb-milwaukee-brewers",
-        "observedAt": "2026-09-13T11:54:23.333Z",
-        "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e"
+        "observedAt": "2026-09-13T20:51:19.747Z",
+        "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -599,9 +599,9 @@
         "keyword:mlb",
         "official-master-schedule"
       ],
-      "firstObservedAt": "2026-09-13T11:54:23.333Z",
-      "lastObservedAt": "2026-09-13T11:54:23.333Z",
-      "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e",
+      "firstObservedAt": "2026-09-13T20:51:19.747Z",
+      "lastObservedAt": "2026-09-13T20:51:19.747Z",
+      "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac",
       "lifecycleState": "ENDED",
       "timeState": "RESOLVED",
       "mapState": "UNMAPPED",
@@ -639,8 +639,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 글로벌 공식 지역 공지",
         "url": "https://pokemongo.com/news/mlb-2026#mlb-new-york-mets",
-        "observedAt": "2026-09-13T11:54:23.333Z",
-        "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e"
+        "observedAt": "2026-09-13T20:51:19.747Z",
+        "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -649,9 +649,9 @@
         "keyword:mlb",
         "official-master-schedule"
       ],
-      "firstObservedAt": "2026-09-13T11:54:23.333Z",
-      "lastObservedAt": "2026-09-13T11:54:23.333Z",
-      "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e",
+      "firstObservedAt": "2026-09-13T20:51:19.747Z",
+      "lastObservedAt": "2026-09-13T20:51:19.747Z",
+      "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac",
       "lifecycleState": "ENDED",
       "timeState": "RESOLVED",
       "mapState": "UNMAPPED",
@@ -689,8 +689,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 글로벌 공식 지역 공지",
         "url": "https://pokemongo.com/news/mlb-2026#mlb-san-francisco-giants",
-        "observedAt": "2026-09-13T11:54:23.333Z",
-        "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e"
+        "observedAt": "2026-09-13T20:51:19.747Z",
+        "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -699,9 +699,9 @@
         "keyword:mlb",
         "official-master-schedule"
       ],
-      "firstObservedAt": "2026-09-13T11:54:23.333Z",
-      "lastObservedAt": "2026-09-13T11:54:23.333Z",
-      "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e",
+      "firstObservedAt": "2026-09-13T20:51:19.747Z",
+      "lastObservedAt": "2026-09-13T20:51:19.747Z",
+      "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac",
       "lifecycleState": "ENDED",
       "timeState": "RESOLVED",
       "mapState": "UNMAPPED",
@@ -739,8 +739,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 글로벌 공식 지역 공지",
         "url": "https://pokemongo.com/news/mlb-2026#mlb-seattle-mariners",
-        "observedAt": "2026-09-13T11:54:23.333Z",
-        "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e"
+        "observedAt": "2026-09-13T20:51:19.747Z",
+        "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -749,9 +749,9 @@
         "keyword:mlb",
         "official-master-schedule"
       ],
-      "firstObservedAt": "2026-09-13T11:54:23.333Z",
-      "lastObservedAt": "2026-09-13T11:54:23.333Z",
-      "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e",
+      "firstObservedAt": "2026-09-13T20:51:19.747Z",
+      "lastObservedAt": "2026-09-13T20:51:19.747Z",
+      "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac",
       "lifecycleState": "SCHEDULED",
       "timeState": "RESOLVED",
       "mapState": "UNMAPPED",
@@ -789,8 +789,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 글로벌 공식 지역 공지",
         "url": "https://pokemongo.com/news/mlb-2026#mlb-tampa-bay-rays",
-        "observedAt": "2026-09-13T11:54:23.333Z",
-        "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e"
+        "observedAt": "2026-09-13T20:51:19.747Z",
+        "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -799,9 +799,9 @@
         "keyword:mlb",
         "official-master-schedule"
       ],
-      "firstObservedAt": "2026-09-13T11:54:23.333Z",
-      "lastObservedAt": "2026-09-13T11:54:23.333Z",
-      "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e",
+      "firstObservedAt": "2026-09-13T20:51:19.747Z",
+      "lastObservedAt": "2026-09-13T20:51:19.747Z",
+      "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac",
       "lifecycleState": "ACTIVE",
       "timeState": "RESOLVED",
       "mapState": "UNMAPPED",
@@ -839,8 +839,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 글로벌 공식 지역 공지",
         "url": "https://pokemongo.com/news/mlb-2026#mlb-texas-rangers",
-        "observedAt": "2026-09-13T11:54:23.333Z",
-        "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e"
+        "observedAt": "2026-09-13T20:51:19.747Z",
+        "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -849,9 +849,9 @@
         "keyword:mlb",
         "official-master-schedule"
       ],
-      "firstObservedAt": "2026-09-13T11:54:23.333Z",
-      "lastObservedAt": "2026-09-13T11:54:23.333Z",
-      "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e",
+      "firstObservedAt": "2026-09-13T20:51:19.747Z",
+      "lastObservedAt": "2026-09-13T20:51:19.747Z",
+      "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac",
       "lifecycleState": "ENDED",
       "timeState": "RESOLVED",
       "mapState": "UNMAPPED",
@@ -889,8 +889,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 글로벌 공식 지역 공지",
         "url": "https://pokemongo.com/news/mlb-2026#mlb-washington-nationals",
-        "observedAt": "2026-09-13T11:54:23.333Z",
-        "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e"
+        "observedAt": "2026-09-13T20:51:19.747Z",
+        "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -899,9 +899,9 @@
         "keyword:mlb",
         "official-master-schedule"
       ],
-      "firstObservedAt": "2026-09-13T11:54:23.333Z",
-      "lastObservedAt": "2026-09-13T11:54:23.333Z",
-      "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e",
+      "firstObservedAt": "2026-09-13T20:51:19.747Z",
+      "lastObservedAt": "2026-09-13T20:51:19.747Z",
+      "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac",
       "lifecycleState": "ENDED",
       "timeState": "RESOLVED",
       "mapState": "UNMAPPED",
@@ -985,8 +985,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 글로벌 공식 지역 공지",
         "url": "https://pokemongo.com/news/2026_ana_red",
-        "observedAt": "2026-09-13T11:54:27.103Z",
-        "contentHash": "aa95f1d81852da55f391e9dd734ab9bf91c609978baf3d5c5a37243ad707e4c4"
+        "observedAt": "2026-09-13T20:51:24.709Z",
+        "contentHash": "653e8235773050eba81a433e2c822328e4c2831c2f141bbffdb50bd2eadb79c7"
       },
       "regionalEvidence": [
         "keyword:空港",
@@ -998,9 +998,9 @@
         "source-family:STADIUM",
         "source-family:VENUE"
       ],
-      "firstObservedAt": "2026-09-13T11:54:27.103Z",
-      "lastObservedAt": "2026-09-13T11:54:27.103Z",
-      "contentHash": "aa95f1d81852da55f391e9dd734ab9bf91c609978baf3d5c5a37243ad707e4c4",
+      "firstObservedAt": "2026-09-13T20:51:24.709Z",
+      "lastObservedAt": "2026-09-13T20:51:24.709Z",
+      "contentHash": "653e8235773050eba81a433e2c822328e4c2831c2f141bbffdb50bd2eadb79c7",
       "lifecycleState": "SCHEDULED",
       "timeState": "UNRESOLVED",
       "mapState": "MAPPED",
@@ -1028,8 +1028,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 글로벌 공식 지역 공지",
         "url": "https://pokemongo.com/news/community-celebrations-go-fest-2026-details-en",
-        "observedAt": "2026-09-13T11:54:32.115Z",
-        "contentHash": "711af47a3265859d701c2039613104f207981251d2a2fec503925bd334043432"
+        "observedAt": "2026-09-13T20:51:30.709Z",
+        "contentHash": "36ae4b0f7c78eeabc449db2df16ea402d03cd2c70fe65a1745642ec29f18eb3b"
       },
       "regionalEvidence": [
         "keyword:local",
@@ -1041,9 +1041,9 @@
         "source-family:STADIUM",
         "source-family:VENUE"
       ],
-      "firstObservedAt": "2026-09-13T11:54:32.115Z",
-      "lastObservedAt": "2026-09-13T11:54:32.115Z",
-      "contentHash": "711af47a3265859d701c2039613104f207981251d2a2fec503925bd334043432",
+      "firstObservedAt": "2026-09-13T20:51:30.709Z",
+      "lastObservedAt": "2026-09-13T20:51:30.709Z",
+      "contentHash": "36ae4b0f7c78eeabc449db2df16ea402d03cd2c70fe65a1745642ec29f18eb3b",
       "lifecycleState": "SCHEDULED",
       "timeState": "UNRESOLVED",
       "mapState": "UNMAPPED",
@@ -1218,8 +1218,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 글로벌 공식 지역 공지",
         "url": "https://pokemongo.com/news/lego-pokemon-go-2026",
-        "observedAt": "2026-09-13T11:54:33.876Z",
-        "contentHash": "b1e33d31e7e1f6790b95a8a0a73601d20a33e062f234bb27dc843ebd007c63f9"
+        "observedAt": "2026-09-13T20:51:31.896Z",
+        "contentHash": "f009b231add920adc57abd0036862f7223fdad8e3b30f8f85fbef5749a00dba8"
       },
       "regionalEvidence": [
         "keyword:limited",
@@ -1231,9 +1231,9 @@
         "source-family:STADIUM",
         "source-family:VENUE"
       ],
-      "firstObservedAt": "2026-09-13T11:54:33.876Z",
-      "lastObservedAt": "2026-09-13T11:54:33.876Z",
-      "contentHash": "b1e33d31e7e1f6790b95a8a0a73601d20a33e062f234bb27dc843ebd007c63f9",
+      "firstObservedAt": "2026-09-13T20:51:31.896Z",
+      "lastObservedAt": "2026-09-13T20:51:31.896Z",
+      "contentHash": "f009b231add920adc57abd0036862f7223fdad8e3b30f8f85fbef5749a00dba8",
       "lifecycleState": "SCHEDULED",
       "timeState": "UNRESOLVED",
       "mapState": "UNMAPPED",
@@ -1264,8 +1264,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 글로벌 공식 지역 공지",
         "url": "https://pokemongo.com/news/nationaltrust-2026",
-        "observedAt": "2026-09-13T11:54:26.688Z",
-        "contentHash": "f475e94e3d4802d6cad3d8d6f260258b590ff9b07b88094dac9e9380bf084d8c"
+        "observedAt": "2026-09-13T20:51:24.007Z",
+        "contentHash": "32e9f0970981711f6499d5c2fd1acf9a7c54b6546799e835d60b91a7dd776b5f"
       },
       "regionalEvidence": [
         "keyword:local",
@@ -1277,9 +1277,9 @@
         "source-family:STADIUM",
         "source-family:VENUE"
       ],
-      "firstObservedAt": "2026-09-13T11:54:26.688Z",
-      "lastObservedAt": "2026-09-13T11:54:26.688Z",
-      "contentHash": "f475e94e3d4802d6cad3d8d6f260258b590ff9b07b88094dac9e9380bf084d8c",
+      "firstObservedAt": "2026-09-13T20:51:24.007Z",
+      "lastObservedAt": "2026-09-13T20:51:24.007Z",
+      "contentHash": "32e9f0970981711f6499d5c2fd1acf9a7c54b6546799e835d60b91a7dd776b5f",
       "lifecycleState": "SCHEDULED",
       "timeState": "UNRESOLVED",
       "mapState": "MAPPED",
@@ -1415,8 +1415,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 글로벌 공식 지역 공지",
         "url": "https://pokemongo.com/news/summer-quest#summer-quest-london-1",
-        "observedAt": "2026-09-13T11:54:23.692Z",
-        "contentHash": "7272668b203d0f29861d7cd9712706aa48a94abd833eeb0cd0ce6a13bfda2d02"
+        "observedAt": "2026-09-13T20:51:20.059Z",
+        "contentHash": "7987bd3d6ba9bfb0005aacdefd1063027f57fbee132fadc714ba4bb2b6ed55de"
       },
       "regionalEvidence": [
         "source-family:VENUE",
@@ -1425,9 +1425,9 @@
         "keyword:shoreditch",
         "keyword:boxpark"
       ],
-      "firstObservedAt": "2026-09-13T11:54:23.692Z",
-      "lastObservedAt": "2026-09-13T11:54:23.692Z",
-      "contentHash": "7272668b203d0f29861d7cd9712706aa48a94abd833eeb0cd0ce6a13bfda2d02",
+      "firstObservedAt": "2026-09-13T20:51:20.059Z",
+      "lastObservedAt": "2026-09-13T20:51:20.059Z",
+      "contentHash": "7987bd3d6ba9bfb0005aacdefd1063027f57fbee132fadc714ba4bb2b6ed55de",
       "lifecycleState": "ENDED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
@@ -1462,8 +1462,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 글로벌 공식 지역 공지",
         "url": "https://pokemongo.com/news/summer-quest#summer-quest-london-2",
-        "observedAt": "2026-09-13T11:54:23.692Z",
-        "contentHash": "7272668b203d0f29861d7cd9712706aa48a94abd833eeb0cd0ce6a13bfda2d02"
+        "observedAt": "2026-09-13T20:51:20.059Z",
+        "contentHash": "7987bd3d6ba9bfb0005aacdefd1063027f57fbee132fadc714ba4bb2b6ed55de"
       },
       "regionalEvidence": [
         "source-family:VENUE",
@@ -1472,9 +1472,9 @@
         "keyword:shoreditch",
         "keyword:boxpark"
       ],
-      "firstObservedAt": "2026-09-13T11:54:23.692Z",
-      "lastObservedAt": "2026-09-13T11:54:23.692Z",
-      "contentHash": "7272668b203d0f29861d7cd9712706aa48a94abd833eeb0cd0ce6a13bfda2d02",
+      "firstObservedAt": "2026-09-13T20:51:20.059Z",
+      "lastObservedAt": "2026-09-13T20:51:20.059Z",
+      "contentHash": "7987bd3d6ba9bfb0005aacdefd1063027f57fbee132fadc714ba4bb2b6ed55de",
       "lifecycleState": "ENDED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
@@ -1509,8 +1509,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 글로벌 공식 지역 공지",
         "url": "https://pokemongo.com/news/summer-quest#summer-quest-uk",
-        "observedAt": "2026-09-13T11:54:23.692Z",
-        "contentHash": "7272668b203d0f29861d7cd9712706aa48a94abd833eeb0cd0ce6a13bfda2d02"
+        "observedAt": "2026-09-13T20:51:20.059Z",
+        "contentHash": "7987bd3d6ba9bfb0005aacdefd1063027f57fbee132fadc714ba4bb2b6ed55de"
       },
       "regionalEvidence": [
         "source-family:REGIONAL",
@@ -1518,9 +1518,9 @@
         "keyword:united kingdom",
         "keyword:timed research"
       ],
-      "firstObservedAt": "2026-09-13T11:54:23.692Z",
-      "lastObservedAt": "2026-09-13T11:54:23.692Z",
-      "contentHash": "7272668b203d0f29861d7cd9712706aa48a94abd833eeb0cd0ce6a13bfda2d02",
+      "firstObservedAt": "2026-09-13T20:51:20.059Z",
+      "lastObservedAt": "2026-09-13T20:51:20.059Z",
+      "contentHash": "7987bd3d6ba9bfb0005aacdefd1063027f57fbee132fadc714ba4bb2b6ed55de",
       "lifecycleState": "ENDED",
       "timeState": "RESOLVED",
       "mapState": "UNMAPPED",
@@ -1701,8 +1701,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 일본 지역 공식 공지",
         "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-baystars",
-        "observedAt": "2026-09-13T11:54:36.898Z",
-        "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307"
+        "observedAt": "2026-09-13T20:51:34.122Z",
+        "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -1710,9 +1710,9 @@
         "keyword:stadium",
         "keyword:npb"
       ],
-      "firstObservedAt": "2026-09-13T11:54:36.898Z",
-      "lastObservedAt": "2026-09-13T11:54:36.898Z",
-      "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307",
+      "firstObservedAt": "2026-09-13T20:51:34.122Z",
+      "lastObservedAt": "2026-09-13T20:51:34.122Z",
+      "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d",
       "lifecycleState": "ENDED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
@@ -1752,8 +1752,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 일본 지역 공식 공지",
         "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-buffaloes",
-        "observedAt": "2026-09-13T11:54:36.898Z",
-        "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307"
+        "observedAt": "2026-09-13T20:51:34.122Z",
+        "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -1761,9 +1761,9 @@
         "keyword:stadium",
         "keyword:npb"
       ],
-      "firstObservedAt": "2026-09-13T11:54:36.898Z",
-      "lastObservedAt": "2026-09-13T11:54:36.898Z",
-      "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307",
+      "firstObservedAt": "2026-09-13T20:51:34.122Z",
+      "lastObservedAt": "2026-09-13T20:51:34.122Z",
+      "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d",
       "lifecycleState": "ENDED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
@@ -1803,8 +1803,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 일본 지역 공식 공지",
         "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-carp",
-        "observedAt": "2026-09-13T11:54:36.898Z",
-        "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307"
+        "observedAt": "2026-09-13T20:51:34.122Z",
+        "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -1812,9 +1812,9 @@
         "keyword:stadium",
         "keyword:npb"
       ],
-      "firstObservedAt": "2026-09-13T11:54:36.898Z",
-      "lastObservedAt": "2026-09-13T11:54:36.898Z",
-      "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307",
+      "firstObservedAt": "2026-09-13T20:51:34.122Z",
+      "lastObservedAt": "2026-09-13T20:51:34.122Z",
+      "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d",
       "lifecycleState": "ENDED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
@@ -1854,8 +1854,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 일본 지역 공식 공지",
         "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-dragons",
-        "observedAt": "2026-09-13T11:54:36.898Z",
-        "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307"
+        "observedAt": "2026-09-13T20:51:34.122Z",
+        "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -1863,9 +1863,9 @@
         "keyword:stadium",
         "keyword:npb"
       ],
-      "firstObservedAt": "2026-09-13T11:54:36.898Z",
-      "lastObservedAt": "2026-09-13T11:54:36.898Z",
-      "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307",
+      "firstObservedAt": "2026-09-13T20:51:34.122Z",
+      "lastObservedAt": "2026-09-13T20:51:34.122Z",
+      "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d",
       "lifecycleState": "ENDED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
@@ -1905,8 +1905,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 일본 지역 공식 공지",
         "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-eagles",
-        "observedAt": "2026-09-13T11:54:36.898Z",
-        "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307"
+        "observedAt": "2026-09-13T20:51:34.122Z",
+        "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -1914,9 +1914,9 @@
         "keyword:stadium",
         "keyword:npb"
       ],
-      "firstObservedAt": "2026-09-13T11:54:36.898Z",
-      "lastObservedAt": "2026-09-13T11:54:36.898Z",
-      "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307",
+      "firstObservedAt": "2026-09-13T20:51:34.122Z",
+      "lastObservedAt": "2026-09-13T20:51:34.122Z",
+      "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d",
       "lifecycleState": "ENDED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
@@ -1956,8 +1956,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 일본 지역 공식 공지",
         "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-fighters",
-        "observedAt": "2026-09-13T11:54:36.898Z",
-        "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307"
+        "observedAt": "2026-09-13T20:51:34.122Z",
+        "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -1965,9 +1965,9 @@
         "keyword:stadium",
         "keyword:npb"
       ],
-      "firstObservedAt": "2026-09-13T11:54:36.898Z",
-      "lastObservedAt": "2026-09-13T11:54:36.898Z",
-      "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307",
+      "firstObservedAt": "2026-09-13T20:51:34.122Z",
+      "lastObservedAt": "2026-09-13T20:51:34.122Z",
+      "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d",
       "lifecycleState": "ENDED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
@@ -2007,8 +2007,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 일본 지역 공식 공지",
         "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-giants",
-        "observedAt": "2026-09-13T11:54:36.898Z",
-        "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307"
+        "observedAt": "2026-09-13T20:51:34.122Z",
+        "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -2016,9 +2016,9 @@
         "keyword:stadium",
         "keyword:npb"
       ],
-      "firstObservedAt": "2026-09-13T11:54:36.898Z",
-      "lastObservedAt": "2026-09-13T11:54:36.898Z",
-      "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307",
+      "firstObservedAt": "2026-09-13T20:51:34.122Z",
+      "lastObservedAt": "2026-09-13T20:51:34.122Z",
+      "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d",
       "lifecycleState": "ENDED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
@@ -2058,8 +2058,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 일본 지역 공식 공지",
         "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-hawks",
-        "observedAt": "2026-09-13T11:54:36.898Z",
-        "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307"
+        "observedAt": "2026-09-13T20:51:34.122Z",
+        "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -2067,9 +2067,9 @@
         "keyword:stadium",
         "keyword:npb"
       ],
-      "firstObservedAt": "2026-09-13T11:54:36.898Z",
-      "lastObservedAt": "2026-09-13T11:54:36.898Z",
-      "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307",
+      "firstObservedAt": "2026-09-13T20:51:34.122Z",
+      "lastObservedAt": "2026-09-13T20:51:34.122Z",
+      "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d",
       "lifecycleState": "ENDED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
@@ -2109,8 +2109,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 일본 지역 공식 공지",
         "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-lions",
-        "observedAt": "2026-09-13T11:54:36.898Z",
-        "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307"
+        "observedAt": "2026-09-13T20:51:34.122Z",
+        "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -2118,9 +2118,9 @@
         "keyword:stadium",
         "keyword:npb"
       ],
-      "firstObservedAt": "2026-09-13T11:54:36.898Z",
-      "lastObservedAt": "2026-09-13T11:54:36.898Z",
-      "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307",
+      "firstObservedAt": "2026-09-13T20:51:34.122Z",
+      "lastObservedAt": "2026-09-13T20:51:34.122Z",
+      "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d",
       "lifecycleState": "ENDED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
@@ -2160,8 +2160,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 일본 지역 공식 공지",
         "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-marines",
-        "observedAt": "2026-09-13T11:54:36.898Z",
-        "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307"
+        "observedAt": "2026-09-13T20:51:34.122Z",
+        "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -2169,9 +2169,9 @@
         "keyword:stadium",
         "keyword:npb"
       ],
-      "firstObservedAt": "2026-09-13T11:54:36.898Z",
-      "lastObservedAt": "2026-09-13T11:54:36.898Z",
-      "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307",
+      "firstObservedAt": "2026-09-13T20:51:34.122Z",
+      "lastObservedAt": "2026-09-13T20:51:34.122Z",
+      "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d",
       "lifecycleState": "ENDED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
@@ -2211,8 +2211,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 일본 지역 공식 공지",
         "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-swallows",
-        "observedAt": "2026-09-13T11:54:36.898Z",
-        "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307"
+        "observedAt": "2026-09-13T20:51:34.122Z",
+        "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -2220,9 +2220,9 @@
         "keyword:stadium",
         "keyword:npb"
       ],
-      "firstObservedAt": "2026-09-13T11:54:36.898Z",
-      "lastObservedAt": "2026-09-13T11:54:36.898Z",
-      "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307",
+      "firstObservedAt": "2026-09-13T20:51:34.122Z",
+      "lastObservedAt": "2026-09-13T20:51:34.122Z",
+      "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d",
       "lifecycleState": "ENDED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
@@ -2262,8 +2262,8 @@
         "lineageId": "pokemon-go-official",
         "label": "Pokémon GO 일본 지역 공식 공지",
         "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-tigers",
-        "observedAt": "2026-09-13T11:54:36.898Z",
-        "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307"
+        "observedAt": "2026-09-13T20:51:34.122Z",
+        "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d"
       },
       "regionalEvidence": [
         "source-family:STADIUM",
@@ -2271,9 +2271,9 @@
         "keyword:stadium",
         "keyword:npb"
       ],
-      "firstObservedAt": "2026-09-13T11:54:36.898Z",
-      "lastObservedAt": "2026-09-13T11:54:36.898Z",
-      "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307",
+      "firstObservedAt": "2026-09-13T20:51:34.122Z",
+      "lastObservedAt": "2026-09-13T20:51:34.122Z",
+      "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d",
       "lifecycleState": "ENDED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
@@ -2892,17 +2892,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 화석박물관 공식 공지",
           "url": "https://pokemongo.com/news/boston-city-safari-know-before-you-go",
-          "observedAt": "2026-09-13T11:54:40.437Z",
-          "contentHash": "8cd7f9010097f9b9757de1f213c31461f5875fa6434f6528abff64e439ade212"
+          "observedAt": "2026-09-13T20:51:35.133Z",
+          "contentHash": "e4a342037f7edcfb90dfde6cab7a2bcabdeeba1e004fbb06ae93068c48284df4"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "UNMAPPED",
       "pokemonState": "UNRESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:40.437Z",
-      "lastObservedAt": "2026-09-13T11:54:40.437Z",
-      "semanticHash": "58bd76125ce0d07f00a82290629c29aa259c5db4c1940e2f9546c19d6b2e8b19"
+      "firstObservedAt": "2026-09-13T20:51:35.133Z",
+      "lastObservedAt": "2026-09-13T20:51:35.133Z",
+      "semanticHash": "d42fceca0e056d1e3cf83f5f78cd712e394612036f3f95dd8eb3e856e0e81005"
     },
     {
       "eventId": "pokemon-go-official-fossil-museum:field-museum:2026",
@@ -2958,17 +2958,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 화석박물관 공식 공지",
           "url": "https://pokemongo.com/en/news/pgo-pokemon-fossil-musuem-chicago-2026",
-          "observedAt": "2026-09-13T11:54:38.446Z",
-          "contentHash": "fae83507e7764e0d7566adfbdc4f628ca1aa513a87d81e215146756b290d9d4d"
+          "observedAt": "2026-09-13T20:51:34.735Z",
+          "contentHash": "86a7a5d3aa81dfc458cdfe42bddf52d92dd975a3376344bde814fd4d048a4ab8"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
       "pokemonState": "RESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:38.446Z",
-      "lastObservedAt": "2026-09-13T11:54:38.446Z",
-      "semanticHash": "30435bc982173b5809dc9cf0abd5bc529ddcb92ce23817086e83586eabde59a8"
+      "firstObservedAt": "2026-09-13T20:51:34.735Z",
+      "lastObservedAt": "2026-09-13T20:51:34.735Z",
+      "semanticHash": "7555730d587aff87486bf5e536ca1a12f5ea8957fc48cea324ebe3fb1ff84df4"
     },
     {
       "eventId": "pokemon-go-official-global-news:mlb:arizona-diamondbacks:2026-08-11",
@@ -3020,17 +3020,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 글로벌 공식 지역 공지",
           "url": "https://pokemongo.com/news/mlb-2026#mlb-arizona-diamondbacks",
-          "observedAt": "2026-09-13T11:54:23.333Z",
-          "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e"
+          "observedAt": "2026-09-13T20:51:19.747Z",
+          "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
       "pokemonState": "RESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:23.333Z",
-      "lastObservedAt": "2026-09-13T11:54:23.333Z",
-      "semanticHash": "909887c0ba04433aa72963f226b2c945d1f27416ffa90bbd5e534818ccf075a0"
+      "firstObservedAt": "2026-09-13T20:51:19.747Z",
+      "lastObservedAt": "2026-09-13T20:51:19.747Z",
+      "semanticHash": "5996d8b4be1fc5eca185be77419f4524304f69de8e2ab672b6ec7fe635bbcbac"
     },
     {
       "eventId": "pokemon-go-official-global-news:mlb:baltimore-orioles:2026-08-04",
@@ -3067,17 +3067,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 글로벌 공식 지역 공지",
           "url": "https://pokemongo.com/news/mlb-2026#mlb-baltimore-orioles",
-          "observedAt": "2026-09-13T11:54:23.333Z",
-          "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e"
+          "observedAt": "2026-09-13T20:51:19.747Z",
+          "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "UNMAPPED",
       "pokemonState": "RESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:23.333Z",
-      "lastObservedAt": "2026-09-13T11:54:23.333Z",
-      "semanticHash": "0a7884d238ced9c80d958146b3bf8a7280849895f8a244e351c20352ac94edec"
+      "firstObservedAt": "2026-09-13T20:51:19.747Z",
+      "lastObservedAt": "2026-09-13T20:51:19.747Z",
+      "semanticHash": "02910b4b84edd21cda57286630f6505dc0bd889c5023d46e697c9cfe6969cc2a"
     },
     {
       "eventId": "pokemon-go-official-global-news:mlb:boston-red-sox:2026-09-25",
@@ -3114,17 +3114,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 글로벌 공식 지역 공지",
           "url": "https://pokemongo.com/news/mlb-2026#mlb-boston-red-sox",
-          "observedAt": "2026-09-13T11:54:23.333Z",
-          "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e"
+          "observedAt": "2026-09-13T20:51:19.747Z",
+          "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "UNMAPPED",
       "pokemonState": "RESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:23.333Z",
-      "lastObservedAt": "2026-09-13T11:54:23.333Z",
-      "semanticHash": "68289e3ad9ffc470d5784473a72d93c18722d6daf72a39ed081078558132502f"
+      "firstObservedAt": "2026-09-13T20:51:19.747Z",
+      "lastObservedAt": "2026-09-13T20:51:19.747Z",
+      "semanticHash": "576b9b9a2a6a2eef2b4473e06b59bbe16c966a958b4cf3e2ccff855e39b61911"
     },
     {
       "eventId": "pokemon-go-official-global-news:mlb:chicago-white-sox:2026-07-08",
@@ -3161,17 +3161,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 글로벌 공식 지역 공지",
           "url": "https://pokemongo.com/news/mlb-2026#mlb-chicago-white-sox",
-          "observedAt": "2026-09-13T11:54:23.333Z",
-          "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e"
+          "observedAt": "2026-09-13T20:51:19.747Z",
+          "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "UNMAPPED",
       "pokemonState": "RESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:23.333Z",
-      "lastObservedAt": "2026-09-13T11:54:23.333Z",
-      "semanticHash": "6606a926566a13cbd9b5fc48f047f0ae4184ade764e5ba6c964bd72864f5213d"
+      "firstObservedAt": "2026-09-13T20:51:19.747Z",
+      "lastObservedAt": "2026-09-13T20:51:19.747Z",
+      "semanticHash": "2513816bfa190bbd3992a5d1f8287cbaf4afbe9173c3a3860d6b1670b5c19f96"
     },
     {
       "eventId": "pokemon-go-official-global-news:mlb:cleveland-guardians:2026-07-02",
@@ -3208,17 +3208,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 글로벌 공식 지역 공지",
           "url": "https://pokemongo.com/news/mlb-2026#mlb-cleveland-guardians",
-          "observedAt": "2026-09-13T11:54:23.333Z",
-          "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e"
+          "observedAt": "2026-09-13T20:51:19.747Z",
+          "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "UNMAPPED",
       "pokemonState": "RESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:23.333Z",
-      "lastObservedAt": "2026-09-13T11:54:23.333Z",
-      "semanticHash": "676eae6014b8ccef0c1ac8bc495a94f77b962cb878a3ad2ead8b172600b969e5"
+      "firstObservedAt": "2026-09-13T20:51:19.747Z",
+      "lastObservedAt": "2026-09-13T20:51:19.747Z",
+      "semanticHash": "534b7e239582b3ffe507590d3baf88244b2826fa1658d9705947e183d433cb58"
     },
     {
       "eventId": "pokemon-go-official-global-news:mlb:miami-marlins:2026-08-07",
@@ -3270,17 +3270,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 글로벌 공식 지역 공지",
           "url": "https://pokemongo.com/news/mlb-2026#mlb-miami-marlins",
-          "observedAt": "2026-09-13T11:54:23.333Z",
-          "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e"
+          "observedAt": "2026-09-13T20:51:19.747Z",
+          "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
       "pokemonState": "RESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:23.333Z",
-      "lastObservedAt": "2026-09-13T11:54:23.333Z",
-      "semanticHash": "e059512e3f7bfeb2151b7c277fdeb0f93247a8225f3a3617a05761e6151a7e59"
+      "firstObservedAt": "2026-09-13T20:51:19.747Z",
+      "lastObservedAt": "2026-09-13T20:51:19.747Z",
+      "semanticHash": "4fc857da7d0b6b84bce88aaabfdf3ab5b213c71ea477f4861cc8c76711136848"
     },
     {
       "eventId": "pokemon-go-official-global-news:mlb:milwaukee-brewers:2026-06-17",
@@ -3317,17 +3317,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 글로벌 공식 지역 공지",
           "url": "https://pokemongo.com/news/mlb-2026#mlb-milwaukee-brewers",
-          "observedAt": "2026-09-13T11:54:23.333Z",
-          "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e"
+          "observedAt": "2026-09-13T20:51:19.747Z",
+          "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "UNMAPPED",
       "pokemonState": "RESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:23.333Z",
-      "lastObservedAt": "2026-09-13T11:54:23.333Z",
-      "semanticHash": "f0b4b3fa5ad5035d368967131a6a603467c881bd3f72270dc4ab179c53b4cda1"
+      "firstObservedAt": "2026-09-13T20:51:19.747Z",
+      "lastObservedAt": "2026-09-13T20:51:19.747Z",
+      "semanticHash": "a8ee42fe6acf4a975e25ea97dea5101e7457f9504523dc8a9f97f51d8612b51b"
     },
     {
       "eventId": "pokemon-go-official-global-news:mlb:new-york-mets:2026-08-25",
@@ -3364,17 +3364,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 글로벌 공식 지역 공지",
           "url": "https://pokemongo.com/news/mlb-2026#mlb-new-york-mets",
-          "observedAt": "2026-09-13T11:54:23.333Z",
-          "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e"
+          "observedAt": "2026-09-13T20:51:19.747Z",
+          "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "UNMAPPED",
       "pokemonState": "RESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:23.333Z",
-      "lastObservedAt": "2026-09-13T11:54:23.333Z",
-      "semanticHash": "6ad5f4057eac5694f86d61b81931cb5ff95dbc4c658e2441d71d13bf7a5cb5e2"
+      "firstObservedAt": "2026-09-13T20:51:19.747Z",
+      "lastObservedAt": "2026-09-13T20:51:19.747Z",
+      "semanticHash": "d129c3dcd6658937104202fe7167765cd06f6a0bd765f21b2fdf3e424da229c2"
     },
     {
       "eventId": "pokemon-go-official-global-news:mlb:san-francisco-giants:2026-08-27",
@@ -3411,17 +3411,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 글로벌 공식 지역 공지",
           "url": "https://pokemongo.com/news/mlb-2026#mlb-san-francisco-giants",
-          "observedAt": "2026-09-13T11:54:23.333Z",
-          "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e"
+          "observedAt": "2026-09-13T20:51:19.747Z",
+          "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "UNMAPPED",
       "pokemonState": "RESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:23.333Z",
-      "lastObservedAt": "2026-09-13T11:54:23.333Z",
-      "semanticHash": "813fa1d026e4e7cd8825e89bd886e99ca81970248f9dd9c44e653394c167075d"
+      "firstObservedAt": "2026-09-13T20:51:19.747Z",
+      "lastObservedAt": "2026-09-13T20:51:19.747Z",
+      "semanticHash": "85b6c5360f4d9803925d3fde3a7635498446e6e2f7d9c0fc0875874f3aa07c95"
     },
     {
       "eventId": "pokemon-go-official-global-news:mlb:seattle-mariners:2026-09-22",
@@ -3458,17 +3458,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 글로벌 공식 지역 공지",
           "url": "https://pokemongo.com/news/mlb-2026#mlb-seattle-mariners",
-          "observedAt": "2026-09-13T11:54:23.333Z",
-          "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e"
+          "observedAt": "2026-09-13T20:51:19.747Z",
+          "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "UNMAPPED",
       "pokemonState": "RESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:23.333Z",
-      "lastObservedAt": "2026-09-13T11:54:23.333Z",
-      "semanticHash": "33f214c2331ccbb150776507bb1b90c77905ca3c98ca7e0a9786f1d59a5581b0"
+      "firstObservedAt": "2026-09-13T20:51:19.747Z",
+      "lastObservedAt": "2026-09-13T20:51:19.747Z",
+      "semanticHash": "17e7f658bbd9c73a53768b6d6fb8c90dba27fe7ca37b1c4c071cbb0d95416e51"
     },
     {
       "eventId": "pokemon-go-official-global-news:mlb:tampa-bay-rays:2026-09-13",
@@ -3505,17 +3505,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 글로벌 공식 지역 공지",
           "url": "https://pokemongo.com/news/mlb-2026#mlb-tampa-bay-rays",
-          "observedAt": "2026-09-13T11:54:23.333Z",
-          "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e"
+          "observedAt": "2026-09-13T20:51:19.747Z",
+          "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "UNMAPPED",
       "pokemonState": "RESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:23.333Z",
-      "lastObservedAt": "2026-09-13T11:54:23.333Z",
-      "semanticHash": "be566097af5b97006c6960761ee2b7981dc8a4e6fff6aa46cf10ca24f15e5bad"
+      "firstObservedAt": "2026-09-13T20:51:19.747Z",
+      "lastObservedAt": "2026-09-13T20:51:19.747Z",
+      "semanticHash": "eff4bef1a07bc25cc274a8f21bad667583cbc2f6d265dca773e1ce32ccdf41f9"
     },
     {
       "eventId": "pokemon-go-official-global-news:mlb:texas-rangers:2026-08-22",
@@ -3552,17 +3552,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 글로벌 공식 지역 공지",
           "url": "https://pokemongo.com/news/mlb-2026#mlb-texas-rangers",
-          "observedAt": "2026-09-13T11:54:23.333Z",
-          "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e"
+          "observedAt": "2026-09-13T20:51:19.747Z",
+          "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "UNMAPPED",
       "pokemonState": "RESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:23.333Z",
-      "lastObservedAt": "2026-09-13T11:54:23.333Z",
-      "semanticHash": "eb1640c91e2cea1160f9fc957b6254cfba15be55083967e0d2e96b5f142ee93c"
+      "firstObservedAt": "2026-09-13T20:51:19.747Z",
+      "lastObservedAt": "2026-09-13T20:51:19.747Z",
+      "semanticHash": "7357cd8ce0c61834ba48cf9baee377f16e81d12a1769cd375d4c6b380bf363e3"
     },
     {
       "eventId": "pokemon-go-official-global-news:mlb:washington-nationals:2026-08-30",
@@ -3599,17 +3599,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 글로벌 공식 지역 공지",
           "url": "https://pokemongo.com/news/mlb-2026#mlb-washington-nationals",
-          "observedAt": "2026-09-13T11:54:23.333Z",
-          "contentHash": "220009e50651a4aa003109e6cc2268ff9508602098d92facc1c7b35885f9cb5e"
+          "observedAt": "2026-09-13T20:51:19.747Z",
+          "contentHash": "83c86409fc97105327e09fd7873237ab4c73dd693645124b39346e9cf05a75ac"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "UNMAPPED",
       "pokemonState": "RESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:23.333Z",
-      "lastObservedAt": "2026-09-13T11:54:23.333Z",
-      "semanticHash": "483abc071740f9f428f96de723409045821e238fc4747a78bf64fba6adf081e7"
+      "firstObservedAt": "2026-09-13T20:51:19.747Z",
+      "lastObservedAt": "2026-09-13T20:51:19.747Z",
+      "semanticHash": "28c23ca264a80026a9a513e9f96f6441b52b0dc74da40009cb14f619e8c9ee9f"
     },
     {
       "eventId": "pokemon-go-official-global-news:summer-quest-london:2026-08-01",
@@ -3656,17 +3656,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 글로벌 공식 지역 공지",
           "url": "https://pokemongo.com/news/summer-quest#summer-quest-london-1",
-          "observedAt": "2026-09-13T11:54:23.692Z",
-          "contentHash": "7272668b203d0f29861d7cd9712706aa48a94abd833eeb0cd0ce6a13bfda2d02"
+          "observedAt": "2026-09-13T20:51:20.059Z",
+          "contentHash": "7987bd3d6ba9bfb0005aacdefd1063027f57fbee132fadc714ba4bb2b6ed55de"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
       "pokemonState": "UNRESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:23.692Z",
-      "lastObservedAt": "2026-09-13T11:54:23.692Z",
-      "semanticHash": "a646e63c9f799110fadb08516b9175c46411e51ac4367bc6d95609872a0b94ec"
+      "firstObservedAt": "2026-09-13T20:51:20.059Z",
+      "lastObservedAt": "2026-09-13T20:51:20.059Z",
+      "semanticHash": "5212a745fed6d3c3c2b862ebdb4261b2810dc6368e6de8540db13f6cc912d42c"
     },
     {
       "eventId": "pokemon-go-official-global-news:summer-quest-london:2026-08-08",
@@ -3713,17 +3713,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 글로벌 공식 지역 공지",
           "url": "https://pokemongo.com/news/summer-quest#summer-quest-london-2",
-          "observedAt": "2026-09-13T11:54:23.692Z",
-          "contentHash": "7272668b203d0f29861d7cd9712706aa48a94abd833eeb0cd0ce6a13bfda2d02"
+          "observedAt": "2026-09-13T20:51:20.059Z",
+          "contentHash": "7987bd3d6ba9bfb0005aacdefd1063027f57fbee132fadc714ba4bb2b6ed55de"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
       "pokemonState": "UNRESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:23.692Z",
-      "lastObservedAt": "2026-09-13T11:54:23.692Z",
-      "semanticHash": "f7805a483bfe14a05d403ed33cb1079d2bebcf0ccc11ca7f1b313ec889813304"
+      "firstObservedAt": "2026-09-13T20:51:20.059Z",
+      "lastObservedAt": "2026-09-13T20:51:20.059Z",
+      "semanticHash": "c5481b6c517747710c0e0621943a3039a83bc57cf580c97ae8224481d738a16b"
     },
     {
       "eventId": "pokemon-go-official-global-news:summer-quest-uk:2026-08-01",
@@ -3755,17 +3755,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 글로벌 공식 지역 공지",
           "url": "https://pokemongo.com/news/summer-quest#summer-quest-uk",
-          "observedAt": "2026-09-13T11:54:23.692Z",
-          "contentHash": "7272668b203d0f29861d7cd9712706aa48a94abd833eeb0cd0ce6a13bfda2d02"
+          "observedAt": "2026-09-13T20:51:20.059Z",
+          "contentHash": "7987bd3d6ba9bfb0005aacdefd1063027f57fbee132fadc714ba4bb2b6ed55de"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "UNMAPPED",
       "pokemonState": "UNRESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:23.692Z",
-      "lastObservedAt": "2026-09-13T11:54:23.692Z",
-      "semanticHash": "225d1855ffdcdc2e97d92f1c00a43ac32ea98ee79a4239dcc1b4f63527762f5c"
+      "firstObservedAt": "2026-09-13T20:51:20.059Z",
+      "lastObservedAt": "2026-09-13T20:51:20.059Z",
+      "semanticHash": "b4f3a725148b6a65e5fb672f9813cd29f223dd90cf42bf36042bd84604643cef"
     },
     {
       "eventId": "pokemon-go-official-jp-regional:npb:baystars:2026",
@@ -3817,17 +3817,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 일본 지역 공식 공지",
           "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-baystars",
-          "observedAt": "2026-09-13T11:54:36.898Z",
-          "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307"
+          "observedAt": "2026-09-13T20:51:34.122Z",
+          "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
       "pokemonState": "RESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:36.898Z",
-      "lastObservedAt": "2026-09-13T11:54:36.898Z",
-      "semanticHash": "cad8e34669ec425da7ad16260f7e494a31f859debbd57b8d455c84d7b9197b1f"
+      "firstObservedAt": "2026-09-13T20:51:34.122Z",
+      "lastObservedAt": "2026-09-13T20:51:34.122Z",
+      "semanticHash": "c33c769753cbc91fb25cbb05c95b04326e3a4e0b57f28f6459d8d2225b052bd5"
     },
     {
       "eventId": "pokemon-go-official-jp-regional:npb:buffaloes:2026",
@@ -3879,17 +3879,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 일본 지역 공식 공지",
           "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-buffaloes",
-          "observedAt": "2026-09-13T11:54:36.898Z",
-          "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307"
+          "observedAt": "2026-09-13T20:51:34.122Z",
+          "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
       "pokemonState": "RESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:36.898Z",
-      "lastObservedAt": "2026-09-13T11:54:36.898Z",
-      "semanticHash": "876b8e2155e6e5467dc21c7cf0691e0addda8d522bae071338ff936332127713"
+      "firstObservedAt": "2026-09-13T20:51:34.122Z",
+      "lastObservedAt": "2026-09-13T20:51:34.122Z",
+      "semanticHash": "909c6130fe2cb5133444a0fe3bffce37f38a8fa204e124981ed2de80bade63de"
     },
     {
       "eventId": "pokemon-go-official-jp-regional:npb:carp:2026",
@@ -3941,17 +3941,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 일본 지역 공식 공지",
           "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-carp",
-          "observedAt": "2026-09-13T11:54:36.898Z",
-          "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307"
+          "observedAt": "2026-09-13T20:51:34.122Z",
+          "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
       "pokemonState": "RESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:36.898Z",
-      "lastObservedAt": "2026-09-13T11:54:36.898Z",
-      "semanticHash": "1fcf9a3f0ce4ce89a88f7308efec223145614fa3194615a488d0386248dd1bf2"
+      "firstObservedAt": "2026-09-13T20:51:34.122Z",
+      "lastObservedAt": "2026-09-13T20:51:34.122Z",
+      "semanticHash": "c98b82fbcc0fca35d854bed3d0efb92f9857620a4851b4eebec4adf9200a1c2e"
     },
     {
       "eventId": "pokemon-go-official-jp-regional:npb:dragons:2026",
@@ -4003,17 +4003,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 일본 지역 공식 공지",
           "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-dragons",
-          "observedAt": "2026-09-13T11:54:36.898Z",
-          "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307"
+          "observedAt": "2026-09-13T20:51:34.122Z",
+          "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
       "pokemonState": "RESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:36.898Z",
-      "lastObservedAt": "2026-09-13T11:54:36.898Z",
-      "semanticHash": "af24638bdcc0aa75f2ffd9e4224fda2fb28f2528a444b7825ccf4c1c89cf38dc"
+      "firstObservedAt": "2026-09-13T20:51:34.122Z",
+      "lastObservedAt": "2026-09-13T20:51:34.122Z",
+      "semanticHash": "bdf9a182ca27974cba2b2761a874a8f81d0fc524d0b6fb359052c369dce51e74"
     },
     {
       "eventId": "pokemon-go-official-jp-regional:npb:eagles:2026",
@@ -4065,17 +4065,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 일본 지역 공식 공지",
           "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-eagles",
-          "observedAt": "2026-09-13T11:54:36.898Z",
-          "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307"
+          "observedAt": "2026-09-13T20:51:34.122Z",
+          "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
       "pokemonState": "RESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:36.898Z",
-      "lastObservedAt": "2026-09-13T11:54:36.898Z",
-      "semanticHash": "1e04c544d56c544315c78d72fbd9aefdf93a1a07a39768b202e566ec3482f0e8"
+      "firstObservedAt": "2026-09-13T20:51:34.122Z",
+      "lastObservedAt": "2026-09-13T20:51:34.122Z",
+      "semanticHash": "abbc3a6ebbeaafecb8e79acc807a9346834fbc30967f59a2533a28e6b8bb0fe3"
     },
     {
       "eventId": "pokemon-go-official-jp-regional:npb:fighters:2026",
@@ -4127,17 +4127,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 일본 지역 공식 공지",
           "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-fighters",
-          "observedAt": "2026-09-13T11:54:36.898Z",
-          "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307"
+          "observedAt": "2026-09-13T20:51:34.122Z",
+          "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
       "pokemonState": "RESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:36.898Z",
-      "lastObservedAt": "2026-09-13T11:54:36.898Z",
-      "semanticHash": "8e8e702b1b6d7fba498d198d86ef53ce790d11e89b165e3f91fbea9c349f7736"
+      "firstObservedAt": "2026-09-13T20:51:34.122Z",
+      "lastObservedAt": "2026-09-13T20:51:34.122Z",
+      "semanticHash": "e829e679fa237aa63c099a1421e30428e222c945bacf8ac19b7d88394ce572bc"
     },
     {
       "eventId": "pokemon-go-official-jp-regional:npb:giants:2026",
@@ -4189,17 +4189,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 일본 지역 공식 공지",
           "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-giants",
-          "observedAt": "2026-09-13T11:54:36.898Z",
-          "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307"
+          "observedAt": "2026-09-13T20:51:34.122Z",
+          "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
       "pokemonState": "RESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:36.898Z",
-      "lastObservedAt": "2026-09-13T11:54:36.898Z",
-      "semanticHash": "b7e1bd808c84e11f1845a67a235a1a8cc627b11b6a585d000abf5cec99c10e75"
+      "firstObservedAt": "2026-09-13T20:51:34.122Z",
+      "lastObservedAt": "2026-09-13T20:51:34.122Z",
+      "semanticHash": "ef3d9173a816507bfb36c3702ad7735a4be4c93552a15eaee6ac6a40a1ec765e"
     },
     {
       "eventId": "pokemon-go-official-jp-regional:npb:hawks:2026",
@@ -4251,17 +4251,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 일본 지역 공식 공지",
           "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-hawks",
-          "observedAt": "2026-09-13T11:54:36.898Z",
-          "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307"
+          "observedAt": "2026-09-13T20:51:34.122Z",
+          "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
       "pokemonState": "RESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:36.898Z",
-      "lastObservedAt": "2026-09-13T11:54:36.898Z",
-      "semanticHash": "a870d0eaf273a2dba55cb68192f2627b5eed484c0af6b23d014a4250224f6ed9"
+      "firstObservedAt": "2026-09-13T20:51:34.122Z",
+      "lastObservedAt": "2026-09-13T20:51:34.122Z",
+      "semanticHash": "80e00ea3c1de76edfe3cdb6bad77b587d5a6a37aaaf3840a49bd142538ba0000"
     },
     {
       "eventId": "pokemon-go-official-jp-regional:npb:lions:2026",
@@ -4313,17 +4313,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 일본 지역 공식 공지",
           "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-lions",
-          "observedAt": "2026-09-13T11:54:36.898Z",
-          "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307"
+          "observedAt": "2026-09-13T20:51:34.122Z",
+          "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
       "pokemonState": "RESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:36.898Z",
-      "lastObservedAt": "2026-09-13T11:54:36.898Z",
-      "semanticHash": "7f2fd3626f959e994be56c7d4fe5420e02cacb237d89022a3216b552f9d53d99"
+      "firstObservedAt": "2026-09-13T20:51:34.122Z",
+      "lastObservedAt": "2026-09-13T20:51:34.122Z",
+      "semanticHash": "ef30dc3a57e78bb272f1db5507038dd144cd290fccd5844e59c6fbee92cca19e"
     },
     {
       "eventId": "pokemon-go-official-jp-regional:npb:marines:2026",
@@ -4375,17 +4375,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 일본 지역 공식 공지",
           "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-marines",
-          "observedAt": "2026-09-13T11:54:36.898Z",
-          "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307"
+          "observedAt": "2026-09-13T20:51:34.122Z",
+          "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
       "pokemonState": "RESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:36.898Z",
-      "lastObservedAt": "2026-09-13T11:54:36.898Z",
-      "semanticHash": "d7ac1d06368f873fd72cec90c9a1f3154f4d4d09009afb44684c27f8638b6cd5"
+      "firstObservedAt": "2026-09-13T20:51:34.122Z",
+      "lastObservedAt": "2026-09-13T20:51:34.122Z",
+      "semanticHash": "e40f6ae23d3c678e626ef02224787932162469ab2281f3d01a638cfe46109572"
     },
     {
       "eventId": "pokemon-go-official-jp-regional:npb:swallows:2026",
@@ -4437,17 +4437,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 일본 지역 공식 공지",
           "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-swallows",
-          "observedAt": "2026-09-13T11:54:36.898Z",
-          "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307"
+          "observedAt": "2026-09-13T20:51:34.122Z",
+          "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
       "pokemonState": "RESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:36.898Z",
-      "lastObservedAt": "2026-09-13T11:54:36.898Z",
-      "semanticHash": "88dd068b82634d77a809d8049bf0b5772d09b2a04a685fec169f2b4cc4944cd8"
+      "firstObservedAt": "2026-09-13T20:51:34.122Z",
+      "lastObservedAt": "2026-09-13T20:51:34.122Z",
+      "semanticHash": "993ec51c270f9a502c8c4fb336d7f2c69ed7581e38acf60587d53d38c3fdd39a"
     },
     {
       "eventId": "pokemon-go-official-jp-regional:npb:tigers:2026",
@@ -4499,17 +4499,17 @@
           "lineageId": "pokemon-go-official",
           "label": "Pokémon GO 일본 지역 공식 공지",
           "url": "https://pokemongo.com/ja/news/nippon_pro_baseball#npb-tigers",
-          "observedAt": "2026-09-13T11:54:36.898Z",
-          "contentHash": "b67d6eed76478e9fc3440839eddfa14e8f7d146e3e415d2f98c41550306a9307"
+          "observedAt": "2026-09-13T20:51:34.122Z",
+          "contentHash": "05173f67073dc0f9d6281316eebd8b39e46269d76f5f01f0a1633b6ebed0d47d"
         }
       ],
       "displayState": "ENRICHED",
       "timeState": "RESOLVED",
       "mapState": "MAPPED",
       "pokemonState": "RESOLVED",
-      "firstObservedAt": "2026-09-13T11:54:36.898Z",
-      "lastObservedAt": "2026-09-13T11:54:36.898Z",
-      "semanticHash": "c3542d54dc0dd3b7947c7ef88db827dd4932aebc88783a303f2d01273224544d"
+      "firstObservedAt": "2026-09-13T20:51:34.122Z",
+      "lastObservedAt": "2026-09-13T20:51:34.122Z",
+      "semanticHash": "3e4df192965b0d490ab46e266dde6222071dd941dc9a135a415dadc8aadd4bf3"
     }
   ]
 }
