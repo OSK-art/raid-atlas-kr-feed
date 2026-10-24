@@ -1,9 +1,9 @@
 {
   "schemaVersion": "raid-atlas-regional-feed-v1",
   "revisionId": "sha256:00378ca1578636ddaebf45881f3365ae4b67569c7a32c84b96ce5b9784ddd728",
-  "generatedAt": "2026-10-24T11:02:55.392Z",
-  "lastSuccessfulObservationAt": "2026-10-24T11:02:55.392Z",
-  "staleAfter": "2026-10-24T19:02:55.392Z",
+  "generatedAt": "2026-10-24T15:58:27.561Z",
+  "lastSuccessfulObservationAt": "2026-10-24T15:58:27.561Z",
+  "staleAfter": "2026-10-24T23:58:27.561Z",
   "tzdbVersion": "2026a",
   "catalogVersions": {
     "locations": "location-catalog-v1",
@@ -27,7 +27,7 @@
       "contentHash": "1bd5e6a577101da552873f3bc4e96c4c3179072b3a5960da8dfcdbe1535d3a51",
       "discoveredCount": 0,
       "publishedNoticeCount": 0,
-      "detail": "fetch failed"
+      "detail": "Source returned HTTP 429"
     },
     {
       "sourceId": "gdelt-regional-query-ja",
@@ -45,16 +45,16 @@
       "contentHash": "2473c625735c5dfafd1bcedeac5197a7ff34530a473d1b6b0799b500002ad185",
       "discoveredCount": 5,
       "publishedNoticeCount": 5,
-      "detail": null
+      "detail": "최소 수집 간격 미경과, 전체 LKG 5건 유지"
     },
     {
       "sourceId": "pokemon-go-official-global-news",
-      "state": "STALE",
+      "state": "HEALTHY",
       "lastSuccessAt": "2026-10-24T11:03:01.520Z",
       "contentHash": "4c90adcc3a79a469eca85d32cf18740197f9f2750a68efe9058f96944b1b4bb8",
       "discoveredCount": 29,
       "publishedNoticeCount": 29,
-      "detail": "SOURCE_ITEM_MISSING: 이번 실행 19/29 발견, 전체 LKG 29건 유지"
+      "detail": "최소 수집 간격 미경과, 전체 LKG 29건 유지"
     },
     {
       "sourceId": "pokemon-go-official-jp-regional",
@@ -63,7 +63,7 @@
       "contentHash": "6981de5e5e80b757949990671159b92aba783849d608581dcfd7b14daa581618",
       "discoveredCount": 16,
       "publishedNoticeCount": 16,
-      "detail": null
+      "detail": "최소 수집 간격 미경과, 전체 LKG 16건 유지"
     },
     {
       "sourceId": "scrapedduck-regional-discovery",
@@ -72,7 +72,7 @@
       "contentHash": "f49fafd0d59188f3f78617005012a5812cdbc2d66c016e8e7c6e97e49c663c28",
       "discoveredCount": 6,
       "publishedNoticeCount": 6,
-      "detail": null
+      "detail": "최소 수집 간격 미경과, 전체 LKG 6건 유지"
     }
   ],
   "heldCandidateCount": 0,
